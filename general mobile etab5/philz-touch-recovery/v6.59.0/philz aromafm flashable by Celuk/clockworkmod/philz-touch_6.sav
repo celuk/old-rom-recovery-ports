@@ -1,0 +1,9 @@
+#PhilZ Touch Settings File
+#Edit only in appropriate UNIX format (Notepad+++...)
+#Entries are in the form of:
+#key=value
+#Do not add spaces in between!
+
+menu_height_increase=42
+set_brightness=250
+t_zone=2

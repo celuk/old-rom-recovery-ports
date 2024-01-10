@@ -1,0 +1,10 @@
+# Copyright (C) 2010 The Android Open Source Project
+#
+
+
+key 172   HOME
+key 158   BACK              WAKE_DROPPED
+#key 139   MENU              WAKE_DROPPED
+key 139   APP_SWITCH
+
+

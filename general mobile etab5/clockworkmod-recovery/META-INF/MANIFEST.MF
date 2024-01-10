@@ -1,0 +1,225 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: res/xml/preferences.xml
+SHA1-Digest: aYVKWvBUCXN3CcgvtpmbZd6shNI=
+
+Name: res/layout/table_list_item.xml
+SHA1-Digest: DKk5deUgoOO55aWqh1ImiDTlE0s=
+
+Name: res/drawable/ic_menu_view.png
+SHA1-Digest: SSc6lkPsjDG5bJr6K5TQGNy2KK8=
+
+Name: res/drawable-hdpi/btn_default_small_normal.9.png
+SHA1-Digest: HYMeNmqNAyqZxa8mMrmn0gUrcFU=
+
+Name: res/layout/main_x10.xml
+SHA1-Digest: ELsKzkfOgoe9FjHl5fI2ZfjHkoc=
+
+Name: res/drawable/pdf_icon.png
+SHA1-Digest: oswoTsM7ubNCciv+vM/v81Rr+gk=
+
+Name: res/drawable/video_camera.png
+SHA1-Digest: Z73+7B6q631zxzpYItqWiqpn6NM=
+
+Name: res/layout/permissions.xml
+SHA1-Digest: Xz5Ct5yWUHzzgBK+eMn3K5fZVnU=
+
+Name: res/drawable/button_default_small.xml
+SHA1-Digest: OEAznwcSUP7e/ULvQOdvue6e12U=
+
+Name: res/drawable/notes.png
+SHA1-Digest: 6+cQ9r/PuC3Nn/A+7rbh4qMJAbQ=
+
+Name: res/drawable/ic_menu_add.png
+SHA1-Digest: 2qWdmzo1m9VYIo6TvhWz11cQCvc=
+
+Name: res/drawable/ic_menu_preferences.png
+SHA1-Digest: vXb65OdrEPlZlpRbl55nGEokLm8=
+
+Name: res/drawable/ic_menu_home.png
+SHA1-Digest: sZQNpcxscGXCz0F0iTX0LOdGmLk=
+
+Name: res/drawable/database.png
+SHA1-Digest: IM97nxlBh0ypeYcC5907C+04c/Y=
+
+Name: res/layout-land/permissions.xml
+SHA1-Digest: +ZZdu4Rf0TwTpA4pgTMXHxuRN8o=
+
+Name: res/layout/list_item_simple.xml
+SHA1-Digest: cTjI5+EG5vsGhpZ8QJCaCvkXKHw=
+
+Name: res/drawable-hdpi/btn_default_small_pressed.9.png
+SHA1-Digest: GmWKJARM8fVRVTklf8xuc9UTmRw=
+
+Name: res/layout/database_records.xml
+SHA1-Digest: VIO3bBMDIyO1PBeOmlyZMrNMzn0=
+
+Name: res/layout/bookmarks.xml
+SHA1-Digest: vUdZV43fxy5ymLaWGvInKzprglQ=
+
+Name: res/layout/display_text.xml
+SHA1-Digest: VLt9YhZfHvJy6pYVxZ+qFmJgd8I=
+
+Name: res/drawable/file_manager_r.png
+SHA1-Digest: gbl8b/zBVbf7CGjaFBbpB3mKrog=
+
+Name: res/layout-land-v11/permissions.xml
+SHA1-Digest: 3dALOuHLW8Qz2VqkbxN7JKhHnek=
+
+Name: res/layout/create_zip.xml
+SHA1-Digest: koW/9FKVUMA9+IMVMvDRjIFxscM=
+
+Name: res/drawable/excel_icon1.png
+SHA1-Digest: h55+pxdpyGYs0RMRMj8cVvK9RrQ=
+
+Name: res/drawable/settings.png
+SHA1-Digest: 8Mv/cEMltBs6aQL5guY+e860ni0=
+
+Name: res/layout-land/change_owner.xml
+SHA1-Digest: MQMUTHywfkRbEV6ONiq5B5YEakw=
+
+Name: res/drawable/ic_menu_refresh.png
+SHA1-Digest: cGE+Xos7DawU3s9aabFh0Wf1Fjo=
+
+Name: res/drawable/ic_menu_search.png
+SHA1-Digest: 5X2UDLhD3IFGPL48MKPSlK5VFJM=
+
+Name: res/drawable/camera.png
+SHA1-Digest: 2gWUtC2ZpfXVr4oB3KQHIOoUfWk=
+
+Name: res/drawable/folder.png
+SHA1-Digest: qo88hlGfKpvEtzYMKNHVzA33E/A=
+
+Name: res/layout-v11/search_prompt.xml
+SHA1-Digest: n3EBE2PyH4KUslsWsrTpyho8lgs=
+
+Name: res/drawable/ic_menu_archive.png
+SHA1-Digest: f4T8t52IAGe+Mo1FNUChrzj8Y1E=
+
+Name: res/drawable/powerpoint_icon1.png
+SHA1-Digest: EcDnsefKNYEJ82H+JiL69VSGGL0=
+
+Name: res/drawable/ic_menu_info_details.png
+SHA1-Digest: J9w9sQLISh7/nPj1eYKIptdszec=
+
+Name: assets/data
+SHA1-Digest: 6KtMdTtQ+Wzt89WyjftEFt+UrUE=
+
+Name: res/layout/about.xml
+SHA1-Digest: yrM0YJC2BglmNjASs8L/nHgRSoU=
+
+Name: res/drawable/video_player.png
+SHA1-Digest: hgAasvZvPwl1wTvIJBTJJh0HUHg=
+
+Name: res/layout-v11/sql_editor_ad.xml
+SHA1-Digest: ATii6W7t0GIQrG17OkaW/DcNdRI=
+
+Name: res/layout/list_item_details.xml
+SHA1-Digest: F7fFp38qbj+GGFB/wnioD/G8PdA=
+
+Name: res/layout/actions.xml
+SHA1-Digest: ncPgNKJW17YFGfLdemtqByqcdWc=
+
+Name: res/drawable/android.png
+SHA1-Digest: RQ09RDJf3yWYEKYOavo2ED4Yaz0=
+
+Name: res/drawable/btn_check_buttonless_off.png
+SHA1-Digest: 4/jQ0xaXpxo1CTIWDEAlPP+hpg4=
+
+Name: res/layout-v11/change_owner.xml
+SHA1-Digest: 5pTGzRkxHi3nYewa4H3iamt6viQ=
+
+Name: res/layout/thumbnail_grid.xml
+SHA1-Digest: i6IYplbCKsKcbHDUCBxjLg7oXlk=
+
+Name: res/drawable/ic_menu_save.png
+SHA1-Digest: /53zl6X2wLp5DZHYA6MhlVL2B3o=
+
+Name: res/layout/run_script.xml
+SHA1-Digest: vmaVW1rNKwB6c0uozK/NpIwRebI=
+
+Name: res/drawable-hdpi/file_manager_r.png
+SHA1-Digest: gtdqlzZRj/7Ce4BgMTdhQ/n7p/Q=
+
+Name: resources.arsc
+SHA1-Digest: Z4JXnp9JAhsUgcI8cUOW5uhgLz4=
+
+Name: res/drawable/default2.png
+SHA1-Digest: JirNcu85EGSNDsNGAmDdkCDOdmE=
+
+Name: res/layout/whats_new.xml
+SHA1-Digest: l2IwNDcei7BuI44CgCF+flfWu0w=
+
+Name: res/layout/search_prompt.xml
+SHA1-Digest: QJ7rXQNY4wculmdAPcKcde0lj7Q=
+
+Name: res/layout/overwite_dialog.xml
+SHA1-Digest: cwL0qsqBr+0dBgWRZMCbDWzGreA=
+
+Name: res/layout/enter_name.xml
+SHA1-Digest: L42y1dT91r9luCFBLGDrEoayYlU=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 6m3e8ZZwZ0XQ4kezrPJu0wzHv0Q=
+
+Name: res/drawable/word_icon1.png
+SHA1-Digest: Ut+CBvm3Ksjw6tmszCB6vw4pg/Q=
+
+Name: res/drawable/gallery.png
+SHA1-Digest: /WrAwo7wboPM7IiukPm4drk/2KI=
+
+Name: res/drawable/zip_icon.png
+SHA1-Digest: MZXDjurw3nNxVUc87dggn9XkC6k=
+
+Name: res/drawable/browser.png
+SHA1-Digest: GlDHctnn41wJH/H7mmYAiIUjbgA=
+
+Name: res/layout-v11/permissions.xml
+SHA1-Digest: M1zXIy/tmuJb0a4PdxBB2q3MDOM=
+
+Name: res/layout/properties.xml
+SHA1-Digest: nG5P+ijEOQp/mlmQCDazh2RQ/cg=
+
+Name: res/layout/sql_editor_ad.xml
+SHA1-Digest: /qFmWCtutz3ND69MLFR4/SLriSg=
+
+Name: res/layout-v11/about.xml
+SHA1-Digest: WkMMw0G+zwTZHDGVRsdyxiIMjm8=
+
+Name: classes.dex
+SHA1-Digest: Wdsz6sjdQ7akp4q14qrZyFf/D7Q=
+
+Name: res/layout/main_p.xml
+SHA1-Digest: rf0eiKn2bo5ISiWLBN/HXwz6rug=
+
+Name: res/drawable/ic_menu_help.png
+SHA1-Digest: ULVF8ULIn/zViK7zVqplmn+ahNs=
+
+Name: res/layout-land-v11/change_owner.xml
+SHA1-Digest: Yub6xuhoNTUdaA1tN2z1spUI3/w=
+
+Name: res/drawable/btn_check_buttonless_on.png
+SHA1-Digest: 4xHl2SNFCZgVlGLFkf3/aqSNPKA=
+
+Name: res/drawable/home.png
+SHA1-Digest: y5HT+mLDH0wFJ1i8SohZACM7voY=
+
+Name: res/layout/database_tables.xml
+SHA1-Digest: 4bAWnHWy89M2RtAsz2EGMR9Cy38=
+
+Name: res/drawable/ic_menu_bookmark.png
+SHA1-Digest: NcM8QrnbQsHjzj8T5wM0mpDITOA=
+
+Name: res/drawable/music.png
+SHA1-Digest: hSfUtzBKaE7rl1BXeadLK/Fj6x8=
+
+Name: res/layout/change_owner.xml
+SHA1-Digest: MQMUTHywfkRbEV6ONiq5B5YEakw=
+
+Name: res/layout-land/properties.xml
+SHA1-Digest: J4iGiplGbbBOPmZrxlQQMn9jHN0=
+
+Name: res/layout/grid_item.xml
+SHA1-Digest: wBFVvTRESeE8js4CG9KqvWenKdg=
+

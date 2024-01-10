@@ -1,0 +1,78 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: dqJn3+qK2cfisIlNeWApstratzY=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: Br6xNsbYLFIighT+FGsY/cB14YM=
+
+Name: Core/framework.tar.xz
+SHA1-Digest: WdGvFHVUnZfxiatNLs+zdnZD2Ek=
+
+Name: Core/gsflogin.tar.xz
+SHA1-Digest: LcQ82+SAgKSamqJVtnhj91nsvTw=
+
+Name: Core/vending.tar.xz
+SHA1-Digest: VSnPL3PD27HfO8rBjq5+yKuKSqo=
+
+Name: g.prop
+SHA1-Digest: 4A6DPscofQ5o0IfVVbDABKUjvwU=
+
+Name: Core/setupwizard.tar.xz
+SHA1-Digest: xMpv2/F7ayXgH5HejwuGRwJq9TE=
+
+Name: Core/googleonetimeinitializer.tar.xz
+SHA1-Digest: gAIFqW1JlHtM3UziSB2zITe3In4=
+
+Name: Optional/swypelibs.tar.xz
+SHA1-Digest: fo5ptfdbKGaAAFxX77fCA2Frp1Q=
+
+Name: xzdec
+SHA1-Digest: /hqqb8lRas/RQO7Rcp8ISAypQdk=
+
+Name: Core/configupdater.tar.xz
+SHA1-Digest: 5nLPCX+0vTL6DsIfXTKHYh6c3Os=
+
+Name: Core/gsfcore.tar.xz
+SHA1-Digest: F+5ZzyuEsWTzYbeVZUAJIR9NEi0=
+
+Name: LICENSE
+SHA1-Digest: +X3QSuiWtf4yePs+jVdvTqr5a8Q=
+
+Name: bkup_tail.sh
+SHA1-Digest: /Z/CmTeUSQXNPNxJmUGEilG9EPQ=
+
+Name: gapps-remove.txt
+SHA1-Digest: nYpAjKzsXUzB1FOztxQpF+sKVmQ=
+
+Name: META-INF/com/android/otacert
+SHA1-Digest: OYGF0k0VLzzQV5759xk8Brab9Bw=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: yX2Jxp5S5gz73ZYxTOFoB1kLVgA=
+
+Name: app_densities.txt
+SHA1-Digest: y5NEnXgcy8KcmDBz/PbCT+M6bZc=
+
+Name: Core/googlepartnersetup.tar.xz
+SHA1-Digest: Elj1DgpELhWFba8iya3lKJdUqEg=
+
+Name: Core/gmscore.tar.xz
+SHA1-Digest: A0peJifpbE4/3Kgk/PnfLOkSjRc=
+
+Name: installer.data
+SHA1-Digest: zswe8fiRV4GQxRJW64O/FZesVMk=
+
+Name: Core/googlecontactssync.tar.xz
+SHA1-Digest: oZXvNnGs0a7mJtDvEOFQWKa1T4s=
+
+Name: app_sizes.txt
+SHA1-Digest: cSGzY4NxxCT0x1wQuXi2moERrbU=
+
+Name: GApps/calsync.tar.xz
+SHA1-Digest: 5f/igIT0r7SCbpN5yJnPt1691jo=
+
+Name: Core/googlebackuptransport.tar.xz
+SHA1-Digest: CfrdA/iF0Ds04IsCdXEh2tvTJaY=
+
+Name: Core/googlefeedback.tar.xz
+SHA1-Digest: 6K3WL98lI35tp1qn5T9MX8HOIIo=
+

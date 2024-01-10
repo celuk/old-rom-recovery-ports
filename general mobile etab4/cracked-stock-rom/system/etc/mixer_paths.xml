@@ -1,0 +1,44 @@
+<mixer>
+  <!-- These are the initial mixer settings -->
+  <ctl name="Speaker Mode" value="1" />
+  <ctl name="Speaker Switch" value="0" />
+  <ctl name="Headphone Switch" value="0" />
+  <ctl name="Lineout Switch" value="0" />
+  <ctl name="Right Output Mixer PCM Switch" value="0" />
+  <ctl name="Left Output Mixer PCM Switch" value="0" />
+  <ctl name="Right Output Mixer Lineout PCM Switch" value="0" />
+  <ctl name="Left Output Mixer Lineout PCM Switch" value="0" />
+  <ctl name="Right Input Mixer MicP Switch" value="0" />
+  <ctl name="Right Input Mixer MicN Switch" value="0" />
+  <ctl name="Left Input Mixer MicP Switch" value="0" />
+  <ctl name="Left Input Mixer MicN Switch" value="1" />
+  <ctl name="ADC LR Swap Switch" value="0" />
+
+  <path name="speaker">
+    <ctl name="Right Output Mixer PCM Switch" value="1" />
+    <ctl name="Left Output Mixer PCM Switch" value="1" />
+    <ctl name="Speaker Switch" value="1" />
+  </path>
+
+  <path name="headphone">
+    <ctl name="Right Output Mixer PCM Switch" value="1" />
+    <ctl name="Left Output Mixer PCM Switch" value="1" />
+    <ctl name="Headphone Switch" value="1" />
+  </path>
+
+  <path name="lineout">
+    <ctl name="Right Output Mixer Lineout PCM Switch" value="1" />
+    <ctl name="Left Output Mixer Lineout PCM Switch" value="1" />
+    <ctl name="Lineout Switch" value="1" />
+  </path>
+
+  <path name="main-mic">
+    <ctl name="Right Input Mixer MicP Switch" value="1" />
+    <ctl name="Right Input Mixer MicN Switch" value="1" />
+    <ctl name="ADC LR Swap Switch" value="1" />
+  </path>
+
+  <path name="headset-mic">
+    <ctl name="Left Input Mixer MicN Switch" value="1" />
+  </path>
+</mixer>

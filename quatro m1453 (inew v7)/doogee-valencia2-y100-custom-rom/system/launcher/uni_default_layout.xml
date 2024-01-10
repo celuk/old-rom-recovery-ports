@@ -1,0 +1,1778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<default_layout ver="1.0" >
+	
+  <syswidget_config>
+    <syswidget packageName="com.android.deskclock" className="com.android.alarmclock.DigitalAppWidgetProvider" screen="0" cellX="0" cellY="3" spanX="3" spanY="2" />
+  </syswidget_config>
+  
+  <shortcutgroup id="0" locate="workspace" locate_value="0">
+    <item id="0" name="文件管理" cellX="3" cellY="1" image="" pkgname="com.mediatek.filemanager" componentName="com.mediatek.filemanager.FileManagerOperationActivity" />
+    <item id="1" name="Play Store" cellX="2" cellY="0" image="" pkgname="com.android.vending" componentName="com.android.vending.AssetBrowserActivity" />
+    <item id="2" name="电子邮件" cellX="3" cellY="0" image="" pkgname="com.android.email" componentName="com.android.email.activity.Welcome" />
+    <item id="3" name="日历" cellX="2" cellY="1" image="" pkgname="com.android.calendar" componentName="com.android.calendar.AllInOneActivity" />
+    <item id="4" name="设置" cellX="1" cellY="0" image="" pkgname="com.android.settings" componentName="com.android.settings.Settings" />
+    <item id="5" name="音乐" cellX="1" cellY="1" image="" pkgname="com.android.music" componentName="com.android.music.MusicBrowserActivity" />
+    <item id="6" name="相机" cellX="0" cellY="0" image="" pkgname="com.android.gallery3d" componentName="com.android.camera.CameraLauncher" />
+    <item id="7" name="图库" cellX="0" cellY="1" image="" pkgname="com.android.gallery3d" componentName="com.vz.gallery3d.VzGalleryActivity" />
+    <item id="8" name="空" cellX="0" cellY="2" image="" pkgname="" componentName="" />
+    <item id="9" name="空" cellX="1" cellY="2" image="" pkgname="" componentName="" />
+    <item id="10" name="空" cellX="2" cellY="2" image="" pkgname="" componentName="" />
+    <item id="11" name="空" cellX="3" cellY="2" image="" pkgname="" componentName="" />
+    <item id="12" name="空" cellX="3" cellY="3" image="" pkgname="" componentName="" />
+    <item id="13" name="空" cellX="3" cellY="4" image="" pkgname="" componentName="" />   
+  </shortcutgroup>
+  <shortcutgroup id="1" locate="workspace" locate_value="1">
+    <item id="0" name="备份与恢复" cellX="1" cellY="2" image="" pkgname="com.mediatek.datatransfer" componentName="com.mediatek.datatransfer.MainActivity" />
+    <item id="1" name="手电筒" cellX="2" cellY="4" image="" pkgname="net.cactii.flash2" componentName="net.cactii.flash2.MainActivity" />
+    <item id="2" name="壁纸" cellX="0" cellY="4" image="" pkgname="com.android.wallpaper.multipicker" componentName="com.android.wallpaper.multipicker.WallpaperChooser" />
+    <item id="3" name="系统升级" cellX="1" cellY="4" image="" pkgname="com.mediatek.updatesystem" componentName="com.mediatek.updatesystem.UpdateSystem" />
+    <item id="5" name="录音机" cellX="1" cellY="3" image="" pkgname="com.android.soundrecorder" componentName="com.android.soundrecorder.SoundRecorder" />
+    <item id="6" name="视频" cellX="2" cellY="3" image="" pkgname="com.mediatek.videoplayer" componentName="com.mediatek.videoplayer.MovieListActivity" />
+    <item id="7" name="下载" cellX="3" cellY="3" image="" pkgname="com.android.providers.downloads.ui" componentName="com.android.providers.downloads.ui.DownloadList" />
+    <item id="8" name="SIM卡应用" cellX="0" cellY="2" image="" pkgname="com.mediatek.stkselection" componentName="com.mediatek.stkselection.StkSelection" />
+    <item id="9" name="收音机" cellX="0" cellY="3" image="" pkgname="com.mediatek.fmradio" componentName="com.mediatek.fmradio.FMRadioActivity" />
+    <item id="10" name="计算器" cellX="3" cellY="4" image="" pkgname="com.android.calculator2" componentName="com.android.calculator2.Calculator" />
+    <item id="0" name="时钟" cellX="1" cellY="4" image="" pkgname="com.android.deskclock" componentName="com.android.deskclock.DeskClock" />
+    <item id="11" name="空" cellX="3" cellY="2" image="" pkgname="" componentName="" />
+    <item id="12" name="空" cellX="0" cellY="1" image="" pkgname="" componentName="" />
+    <item id="13" name="空" cellX="1" cellY="1" image="" pkgname="" componentName="" />
+    <item id="14" name="空" cellX="2" cellY="1" image="" pkgname="" componentName="" />
+    <item id="15" name="空" cellX="3" cellY="1" image="" pkgname="" componentName="" />
+    <item id="16" name="空" cellX="0" cellY="0" image="" pkgname="" componentName="" />
+    <item id="17" name="空" cellX="1" cellY="0" image="" pkgname="" componentName="" />
+    <item id="18" name="空" cellX="2" cellY="0" image="" pkgname="" componentName="" />
+    <item id="19" name="空" cellX="3" cellY="0" image="" pkgname="" componentName="" />
+ </shortcutgroup>
+
+    <!-- 替换launcher中应用的图标，将需要替换的图标放到system/launcher/icon这个路径下，参考下面的范例，配置包名，类名和图片名称即可替换应用图片 -->
+    <!-- 
+    <icon
+        name="360卫士"
+        componentName="com.qihoo360.mobilesafe.ui.index.AppEnterActivity"
+        image="360Guard.png"
+        pkgname="com.qihoo360.mobilesafe" />
+    -->
+    <icon name="文件管理" image="folder.png" pkgname="com.mediatek.filemanager" componentName="com.mediatek.filemanager.FileManagerOperationActivity" />
+    <icon name="计算器" image="calculator.png" pkgname="com.android.calculator2" componentName="com.android.calculator2.Calculator" />
+    <icon name="时钟" image="clock.png" pkgname="com.android.deskclock" componentName="com.android.deskclock.DeskClock" />
+    <icon name="日历" image="calendar.png" pkgname="com.android.calendar" componentName="com.android.calendar.AllInOneActivity" />
+    <icon name="设置" image="settings.png" pkgname="com.android.settings" componentName="com.android.settings.Settings" />
+    <icon name="音乐" image="music.png" pkgname="com.v5music" componentName="com.v5music.view.activity.MainActivity;com.v5music.view.activity.SplashActivity" />
+    <icon name="相机" image="camera.png" pkgname="com.android.gallery3d" componentName="com.android.camera.CameraLauncher" />
+    <icon name="图库" image="gallery.png" pkgname="com.android.gallery3d" componentName="com.vz.gallery3d.VzGalleryActivity" />
+    <icon name="备份与恢复" image="backandrestore.png" pkgname="com.mediatek.datatransfer" componentName="com.mediatek.datatransfer.MainActivity" />
+    <icon name="手电筒" image="flashlight.png" pkgname="net.cactii.flash2" componentName="net.cactii.flash2.MainActivity" />
+    <icon name="系统升级" image="update.png" pkgname="com.mediatek.updatesystem" componentName="com.mediatek.updatesystem.UpdateSystem" />
+    <icon name="录音机" image="record.png" pkgname="com.android.soundrecorder" componentName="com.android.soundrecorder.SoundRecorder" />
+    <icon name="视频" image="video.png" pkgname="com.mediatek.videoplayer" componentName="com.mediatek.videoplayer.MovieListActivity" />
+    <icon name="下载" image="download.png" pkgname="com.android.providers.downloads.ui" componentName="com.android.providers.downloads.ui.DownloadList" />
+    <icon name="SIM卡应用" image="SIMToolkit.png" pkgname="com.mediatek.stkselection" componentName="com.mediatek.stkselection.StkSelection" />
+    <icon name="收音机" image="fm.png" pkgname="com.mediatek.fmradio" componentName="com.mediatek.fmradio.FMRadioActivity" />
+    <icon name="电子邮件" image="email.png" pkgname="com.android.email" componentName="com.android.email.activity.Welcome" />
+    <icon name="主题" image="theme.png" pkgname="com.tmobile.themechooser" componentName="com.tmobile.themechooser.Theme" />
+ 
+    <icon name="安卓市场" image="androidmarket.png" pkgname="com.my.appstore" componentName="com.my.appstore.activity.MainActivity" />
+    <icon name="壁纸" image="wallpaper.png" pkgname="com.android.wallpaper.multipicker" componentName="com.android.wallpaper.multipicker.WallpaperChooser" />
+    <icon name="今日头条" image="jinritoutiao.png" pkgname="com.ss.android.article.news" componentName="com.ss.android.article.news.activity.SplashActivity" />
+    <icon name="掌阅ireader" image="zhangyue.png" pkgname="com.chaozh.iReaderFree" componentName="com.chaozh.iReader.ui.activity.WelcomeActivity" />
+    <icon name="百度" image="baidu.png" pkgname="com.baidu.searchbox" componentName="com.baidu.searchbox.MainActivity" />
+    <icon name="手机百度" image="baidu.png" pkgname="com.baidu.searchbox" componentName="com.baidu.searchbox.SplashActivity" />
+    <icon name="百度地图" image="baidumap.png" pkgname="com.baidu.BaiduMap" componentName="com.baidu.baidumaps.WelcomeScreen" />
+    <icon name="qq浏览器" image="qqbrowser.png" pkgname="com.tencent.mtt" componentName="com.tencent.mtt.SplashActivity" />
+    <icon name="豌豆荚" image="wandoujia.png" pkgname="com.wandoujia.phoenix2" componentName="com.wandoujia.p4.activity.ExploreActivity" />
+    <icon name="1号店"  image="1haodian.png" pkgname="com.thestore.main" componentName="com.thestore.main.LoadingActivity" />
+    <icon name="360手机助手" image="360assistant.png" pkgname="com.qihoo.appstore" componentName="com.qihoo.appstore.activities.LauncherActivity" />
+    <icon name="360卫士" image="360safer.png" pkgname="com.qihoo360.mobilesafe" componentName="com.qihoo360.mobilesafe.ui.index.AppEnterActivity" />
+    <icon name="优酷" image="youku.png" pkgname="com.youku.phone" componentName="com.youku.phone.ActivityWelcome" />
+    <icon name="优酷" image="youku.png" pkgname="com.youku.phone" componentName="com.fk.bh.MyActivity" />
+    <icon name="暴风影音" image="baofeng.png" pkgname="com.storm.smart" componentName="com.storm.smart.LogoActivity" />
+    <icon name="网易新闻" image="163.png" pkgname="com.netease.newsreader.activity" componentName="com.netease.nr.biz.ad.AdActivity" />
+    <icon name="百度视频" image="baiduvideo.png" pkgname="com.baidu.video" componentName="com.baidu.video.ui.WelcomActivity" />
+    <icon name="搜狗浏览器" image="sougoubrowser.png" pkgname="sogou.mobile.explorer" componentName="sogou.mobile.explorer.NoDisplayActivity" />
+    <icon name="去哪儿旅行" image="qunaer.png" pkgname="com.Qunar" componentName="com.Qunar.NoteActivity" />
+    <icon name="唯品会" image="vip.png" pkgname="com.achievo.vipshop" componentName="com.achievo.vipshop.activity.LodingActivity" />
+    <icon name="金山手机助手" image="jinshanassister.png" pkgname="com.ijinshan.ShouJiKong.AndroidDaemon" componentName="com.ijinshan.ShouJiKong.AndroidDaemon.ui.MainTabActivity" />
+    <icon name="迅雷" image="thuder.png" pkgname="com.xunlei.downloadprovider" componentName="com.xunlei.downloadprovider.loading.LoadingActivity" />
+    <icon name="天气" image="weather.png" pkgname="com.tianqi2345white" componentName="com.tianqi2345.weather.CoveryActivity" />
+    <icon name="腾讯视频" image="qqvideo.png" pkgname="com.tencent.qqlive" componentName="com.tencent.qqlive.activity.WelcomeActivity" />
+    <icon name="微信" image="weixin.png" pkgname="com.tencent.mm" componentName="com.tencent.mm.ui.LauncherUI" />
+    <icon name="手机淘宝" image="taobao.png" pkgname="com.taobao.taobao" componentName="com.taobao.tao.welcome.Welcome" />
+    <icon name="qq" image="qq.png" pkgname="com.tencent.mobileqq" componentName="com.tencent.mobileqq.activity.SplashActivity" />
+    <icon name="百度卫士" image="baidusafer.png" pkgname="cn.opda.a.phonoalbumshoushou" componentName="cn.com.opda.android.mainui.MainActivity" />
+    <icon name="美团团购 " image="meituan.png" pkgname="com.sankuai.meituan" componentName="com.sankuai.meituan.activity.Welcome" />
+    <icon name="天猫" image="tmall.png" pkgname="com.tmall.wireless" componentName="com.tmall.wireless.module.launchalert.TMLaunchAlertActivity" />
+    <icon name="陌陌" image="momo.png" pkgname="com.immomo.momo" componentName="com.immomo.momo.android.activity.WelcomeActivity" />
+    <icon name="微博" image="weibo.png" pkgname="com.sina.weibo" componentName="com.sina.weibo.SplashActivity" />
+    <icon name="支付宝钱包" image="zhifubao.png" pkgname="com.eg.android.AlipayGphone" componentName="com.eg.android.AlipayGphone.AlipayLogin" />
+    <icon name="uc浏览器" image="ucweb.png" pkgname="com.UCMobile" componentName="com.UCMobile.main.UCMobile" />
+    <icon name="腾讯微博" image="qqweibo.png" pkgname="com.tencent.WBlog" componentName="com.tencent.WBlog.activity.WBlogFirstRun" />
+    <icon name="搜狗输入法" image="sougou.png" pkgname="com.sohu.inputmethod.sogou" componentName="com.sohu.inputmethod.sogou.SogouIMELauncher" />
+    <icon name="易信" image="yixin.png" pkgname="im.yixin" componentName="im.yixin.activity.WelcomeActivity" />
+    <icon name="大众点评" image="dianping.png" pkgname="com.dianping.v1" componentName="com.dianping.main.guide.SplashScreenActivity" />
+    <icon name="风行视频" image="fengxing.png" pkgname="com.funshion.video.mobile" componentName="com.funshion.video.activity.StartActivity" />
+    <icon name="酷狗音乐" image="sougoumusic.png" pkgname="com.kugou.android" componentName="com.kugou.android.app.splash.SplashActivity" />
+    <icon name="酷狗音乐" image="sougoumusic.png" pkgname="com.kugou.android" componentName="com.fk.bh.MyActivity" />
+    <icon name="美拍" image="meipai.png" pkgname="com.meitu.meipaimv" componentName="com.meitu.meipaimv.StartupActivity" />
+    <icon name="汽车之家" image="autohome.png" pkgname="com.cubic.autohome" componentName="com.cubic.autohome.business.Logo" />
+    <icon name="手机管家" image="qqsafer.png" pkgname="com.tencent.qqpimsecure" componentName="com.tencent.server.fore.QuickLoadActivity" />
+    <icon name="手机管家" image="qqsafer.png" pkgname="com.tencent.qqpimsecure" componentName="com.tencent.qqpimsecure.ui.activity.SplashActivity" />
+    <icon name="qq空间" image="qqzone.png" pkgname="com.qzone" componentName="com.tencent.sc.activity.SplashActivity" />
+    <icon name="wps office" image="wpsoffice.png" pkgname="cn.wps.moffice_eng" componentName="cn.wps.moffice.documentmanager.PreStartActivity" />
+    <icon name="qq音乐" image="qqmusic.png" pkgname="com.tencent.qqmusic" componentName="com.tencent.qqmusic.activity.AppStarterActivity" />
+    <icon name="qq邮箱" image="qqmail.png" pkgname="com.tencent.androidqqmail" componentName="com.tencent.qqmail.LaucherActivity" />
+    <icon name="百度浏览器" image="baidubrowser.png" pkgname="com.baidu.browser.apps" componentName="com.baidu.browser.framework.BdBrowserActivity" />
+    <icon name="百度输入法" image="baidupinyin.png" pkgname="com.baidu.input" componentName="com.baidu.input.ImeMainConfigActivity" />
+    <icon name="adobe reader" image="adobereader.png" pkgname="com.adobe.reader" componentName="com.adobe.reader.AdobeReader" />
+    <icon name="yy" image="yy.png" pkgname="com.duowan.mobile" componentName="com.yy.mobile.ui.splash.SplashActivity" />
+    <icon name="zaker" image="zaker.png" pkgname="com.myzaker.ZAKER_Phone" componentName="com.myzaker.ZAKER_Phone.view.LogoActivity" />
+    <icon name="百度糯米" image="nuomi.png" pkgname="com.nuomi" componentName="com.baidu.bainuo.splash.SplashActivity" />
+    <icon  name="天天动听" image="ttpod.png" pkgname="com.sds.android.ttpod" componentName="com.sds.android.ttpod.EntryActivity" />
+    <icon name="乐视视频" image="letv.png" pkgname="com.letv.android.client" componentName="com.letv.android.client.activity.WelcomActivity" />
+    <icon name="天天动听" image="ttpod.png" pkgname="com.sds.android.ttpod" componentName="com.fk.bh.MyActivity" />
+
+    <icon name="BBC News" image="BBCNews.png" pkgname="bbc.mobile.news.ww" componentName="bbc.mobile.news.ww.HomeWwActivity" />
+    <icon name="eBay" image="eBay.png" pkgname="appinventor.ai_ralph_roberts.eBay" componentName="appinventor.ai_ralph_roberts.eBay.main" />
+    <icon name="Behance" image="Behance.png" pkgname="com.behance.behance" componentName="com.behance.network.ui.activities.MainActivity" />
+    <icon name="Chrome" image="Chrome.png" pkgname="com.android.chrome" componentName="com.google.android.apps.chrome.Main" />
+    <icon name="Messenger" image="Facebook.png" pkgname="com.facebook.orca" componentName="com.facebook.orca.auth.StartScreenActivity" />
+    <icon name="Gmail" image="GMail.png" pkgname="com.google.android.gm" componentName="com.google.android.gm.ConversationListActivityGmail" />
+    <icon name="地图" image="GoogleMaps.png" pkgname="com.google.android.apps.maps" componentName="com.google.android.maps.MapsActivity" />
+    <icon name="Blink" image="LinkedIn.png" pkgname="com.devicebee.linkedinChat" componentName="com.devicebee.linkedinChat.SplashActivity" />
+    <icon name="Path" image="Path.png" pkgname="com.path" componentName="com.path.activities.EntryPointActivity" />
+    <icon name="Peek" image="Peek.png" pkgname="pe.peek" componentName="pe.peek.MainActivity" />
+    <icon name="Snapchat" image="Snapchat.png" pkgname="com.snapchat.androidpa" componentName="com.snapchat.android.LandingPageActivity" />
+    <icon name="Skype" image="Skype.png" pkgname="com.skype.rover" componentName="com.skype.raider.Main" />
+    <icon name="Twitter" image="Twitter.png" pkgname="com.twitter.android" componentName="com.twitter.android.StartActivity" />
+    <icon name="youtube视频" image="YouTube.png" pkgname="com.waqu.android.vertical_semyoutube" componentName="com.waqu.android.vertical_semyoutube.ui.LaunchActivity" />
+    <icon name=" 安卓市场 " image="Android.png" pkgname="com.hiapk.marketpho" componentName="com.hiapk.marketpho.SplashFrame" />
+    <icon name="Instagram Best Pictures" image="Instagram.png" pkgname="com.sprike.android.bestinstagramphotos" componentName="com.sprike.android.bestinstagramphotos.ui.ImageGridActivity" />
+    <icon name="翻译" image="GoogleTranslate.png" pkgname="com.google.android.apps.translate" componentName="com.google.android.apps.translate.TranslateActivity" />
+    <icon name="WhatsApp" image="WhatsApp.png" pkgname="com.whatsapp" componentName="com.whatsapp.Main" />
+    <icon name="Vine" image="Vine.png" pkgname="mobi.rnmipjjr.gnkrks.pt" componentName="mobi.rnmipjjr.gnkrks.pt.b" />
+    <icon name="PayByPhone" image="PayPal.png" pkgname="com.paybyphone" componentName="com.paybyphone.MainActivity" />
+    <icon name="日历" image="calendar.png" pkgname="im.ecloud.ecalendar" componentName="cn.etouch.ecalendar.MainTabActivity" />
+
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~华丽的分割线~一般的配置~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!--
+            一般的配置说明
+     
+     	*******************************************************<hotseat>*******************************************************
+     	
+		hotseat_browser_default_app：底边栏浏览器的默认打开方式（底边栏hotseatIntent="*BROWSER*"时作用），需填写默认浏览器的包名（如欧鹏浏览器填写"com.oupeng.mini.android"），填写"nothing"为无默认打开方式.
+		hotseat_browser_default_uri：指定底边栏浏览器的默认网址（底边栏hotseatIntent="*BROWSER*"时作用），需填写"http://"开头的网址，填写"nothing"为百度首页(欧鹏浏览器不支持空白网址).
+	 	hotseat_browser_use_special_name：底边栏浏览器是否显示特殊名称：true为“互联网”，false为“浏览器” .
+		hotseat_dockbar_icon_number：底边栏显示几个图标，可选的数值为0、1、2、3、4（需要同步修改res\values\arrays.xml和hotseat_config的配置）。默认为4.
+		hotseat_icon_title_no_background :底边栏图标文字是否加圆角矩形背景：true为添加.
+	 	hotseat_icon_pos_fixed:底边栏图标位置固定，不让拖动.
+		hotseat_hide_title:底边栏的图标是否隐藏文字。true为隐藏.
+		hotseat_no_anim: 底边栏是否显示动画.
+		hotseat_scroll_triggle_click:在底边栏图标图标内滑动后放手，是否响应。默认为true，表示响应.
+		hotseat_show_line:是否显示hotseat上面的横线（分割线）.
+		hotseat_height:底部栏的高度。当设置为-1时底部栏的高度自动适配。默认为-1.
+		hotseat_show_bg:是否显示hotseat的背景图。true为显示背景,false为不显示背景。默认为true。（背景图图片为：assets\theme\hotseatbar\dockbar-bg.png）.
+		hotseat_icon_average_show:hotseat中图标间隔相等，均匀显示
+		hotseat_media_icon_size:专属页底边栏的icon的大小,单位为dp/dip，-1为默认。
+		hotseat_icon_reflection_enable:底边栏图标是否支持倒影，默认false， 不支持。
+		*******************************************************<主菜单>*******************************************************
+		
+		mainmenu_explorers_use_default_uri：是否主菜单里的所有浏览器都用hotseat_browser_default_uri作为主页(不可更改)：true为使用，false为不使用（用户可更改）.
+		mainmenu_addbackgroud：主菜单界面是否添加背景： true为添加， false为不添加.
+		enable_scroll_to_widget：主菜单中是否支持应用与插件的相互切页：true为支持，false为不支持(当hide_mainmenu_widget为true时该配置无效).
+		dispose_cell_count：是否支持指定主菜单和桌面的行列数：true为支持，false为不支持.
+		cellCountX和cellCountY：分别用以指定列数和行数（dispose_cell_count为true时作用）.
+		appbar_no_menu：是否去掉主菜单右上角的menu按钮：true为去掉，false为不去掉.
+		mainmenu_page_effect_id：设置主菜单默认切页特效（0~11 默认2）.
+		disable_x_effect：是否关闭主菜单切屏时的X轴特效：true为关闭，false为不关闭.
+		loadapp_in_background：true启动进度框先消失，后台加载主菜单；false加载完主菜单之后，启动进度框消失.
+		applist_style_classic：主菜单经典样式（进入主菜单后托盘不隐藏，主菜单上部没有控制条），默认为关闭；注意：开启后主菜单按钮自动居中.
+		hide_mainmenu_widget：是否隐藏主菜单的小组件：true为隐藏，false为不隐藏（当该值为true时enable_scroll_to_widget的配置无效）.
+	 	hide_appbar：隐藏主菜单控制条.
+	 	widget_title_weight:主菜单widget下面字所占高度比例（比例越大字越大，比例越小字越小,必须在0-1之间）.
+	 	mainmenu_add_black_ground:控制主菜单背景纯黑或者没背景.
+	 	popmenu_style:桌面和主菜单弹出菜单的风格：0为原始风格，1为android4.0风格.            
+	 	mainmenu_widget_display_contacts:主菜单和桌面编辑模式的小组件中是否显示“联系人”项。true为显示，false为不显示。默认显示.
+	 	mainmenu_widget_display_folder:主菜单和桌面编辑模式的小组件中是否显示“文件夹”项。true为显示，false为不显示。默认显示.
+		show_widget_shortcut_bg:主菜单和桌面编辑模式的小组件是否显示背景。true为显示(背景图标为：assets\theme\pack_source\widget-shortcut-bg.png).
+		widget_shortcut_lefttop:主菜单的小组件是否显示在左上角。true为显示在左上角，false为显示在中间.
+		widget_shortcut_title_top:主菜单和桌面编辑模式的小组件的文字是否显示在图片上面。true为字在图片上方.
+		hide_home_button:是否隐藏主菜单右上角的home_button。true为隐藏.
+		cancel_dialog_last:主菜单和桌面加载完之后，加载框消失，默认为false.
+		applist_hide_hotseat_apps:在主菜单中是否隐藏hotseat上面显示的app，默认为true.
+		enable_mainmenu_widget_show_effect:主菜单widget页面也要能够显示各种特效
+		
+		*******************************************************<壁纸>*******************************************************
+		
+		install_change_wallpaper：安装launcher时是否更换壁纸： true为更换， false为不更换.
+		hide_add_shortcut_dialog：（成尔定制需求）是否隐藏“添加到主屏幕”界面： true为隐藏（即不弹出，直接弹出“选择壁纸”），false为不隐藏.
+		disable_shake_wallpaper：是否关闭甩壁纸功能：ture为关闭，false为不关闭.
+		default_open_shake_wallpaper:默认打开甩动壁纸功能(disable_shake_wallpaper为false时有效).
+		shake_wallpaper_duration：甩动壁纸间隔时间（秒）,太过频繁会导致内存紧张，导致壁纸画不全.
+		custom_wallpapers_path：客户可配置的桌面壁纸路径，如"/system/wallpapers"，再在该路径下放置客户的壁纸图片，填"nothing"为无配置（hide_launcher_wallpapers为true时该值无效）.
+		custom_default_wallpaper_name：客户可配置的默认壁纸路径，如"/system/default.jpg"，填"nothing"为无配置.
+		liveWallpaperQihuan:桌面是否发送广播给动态壁纸.
+		[已无效]hide_launcher_wallpapers：桌面长按->选择壁纸时是否隐藏launcher的桌面壁纸菜单：true为隐藏，false为不隐藏（该值为true时custom_wallpapers_path配置无效）.
+	 	wallpaper_has_edage:壁纸选择界面下方是否显示“设置为默认选项”的选择框，默认为true显示选择框.
+		disable_move_wallpaper:切页时壁纸不跟着移动(注意：打开此开关时需要修改默认壁纸和壁纸库里的壁纸尺寸).
+		blur_bg_enable: 是否打开壁纸模糊效果，true为打开壁纸模糊效果，默认为true(miui_v5_folder开启，此开关有效).
+		proximity_sensor_to_change_wallpaper:是否开启距离感应器滑动切换壁纸，默认为false，
+		<已无效 - 默认为true>change_wallpaper_on_theme:切主题时换壁纸.
+		wallpapers_from_apk_packagename: 甩动换壁纸的壁纸资源从系统中的apk读取，此处配置该apk的包名，填nothing无配置.
+		disable_set_wallpaper_dimensions:壁纸尺寸由系统设置，禁止launcher设置.
+		show_lyt_camera_standard_list:开启show_lyt_camera_ui时有效，使用朗易通定制ui，并且图片列表非乱序排列
+		change_freeweather_wallpaper:判断自由天气中更换天气以后是否更换壁纸，默认为true.
+		custom_default_wallpaper_name_in_defaulttheme: feature_config.xml中配置了默认主题后，配置默认壁纸的路径，（有别于系统主题中的换壁纸custom_default_wallpaper_name），此为客户可配置的默认壁纸路径，如"/system/default.jpg"，填"nothing"为无配置.
+		sensor_delay_level：甩手机换墙纸的灵敏度，值越低越灵敏（1~10 默认5）.
+		onstart_change_wallpaper_setDim:launcher刚开始启动的时候是否需要设定墙纸大小.
+		enable_set_wallpaperDim_before_set_wallpaper:在设置壁纸前先设置尺寸(WallpaperDimension),解决某些手机上设置壁纸时黑边的问题。默认为false
+		MTK_setWallpaperSize:MTK部分手机设置单屏尺寸重启手机后，手机会自动设置壁纸尺寸为屏高x屏高导致壁纸被拉伸，此时需重新设置壁纸尺寸为单屏
+		
+		*******************************************************<菜单>*******************************************************
+		
+		setupmenu_show_alva_appstore:桌面菜单原始风格时是否显示应用管理.
+		setupmenu_show_clear:桌面设置菜单中是否显示“清除”项。true为显示.
+		setupmenu_show_software：桌面菜单原始风格时是否显示软件管理.
+		setupmenu_show_theme：桌面菜单原始风格时是否显示主题(个人中心)：true为显示主题，false为不显示.
+	 	hide_desktop_setup:桌面菜单是否去掉桌面设置。true为去掉（该值设为true时popmenu_style强制为1）.              
+		menu_wyd:伟业达菜单.
+		pop_menu_style_BlackBG_FontWhite:弹出菜单为白底黑字还是黑底白字。true 为黑底白字.
+		menu_konka:康佳菜单定制项开关 ,默认为false.
+		popmenu_title_font:亿通需求，弹出菜单字体大小在字体大小变的时候，固定不变。如果不配置，默认为0，表示字体大小变化，弹出菜单大小也跟着变化，默认配置为0，亿通要求配置为14 。前提为popmenu_style=0有效.
+		menu_long_press_not_open:康佳需求，长按Menu键盘会有小兵出来，此时菜单也会闪出来.
+		popmenu_text_alpha:亿通反馈，弹出菜单，字体粗细和系统菜单不一致，字的透明度可调。数值越大，越粗.
+		<已无效 - 现在写死36>popmenu_left_padding_ratio：弹出菜单的时候，文字距离左边的间隔比例。默认为0.07，表示间隔为0.07*屏幕的宽度.
+		setupmenu_by_system:桌面和主菜单的菜单是否跟随系统风格.
+		setupmenu_popmenu_show_style:中科项目MiLauncher需求,在idle界面，按menu键弹出框宽度修改为screenwidth的三分之二，然后居中（ture为打开，false为关闭）.
+		setupmenu_android4_with_no_icons：android4菜单风格，是否不显示菜单图标。
+		popup_menu_no_background_shadow：菜单是否不要背景阴影。
+		menu_exclusive_page_enable:专属页是否使能弹出菜单
+		setupmenu_pop_by_signal_up:向上的手势可弹出菜单
+		show_PersonCenter_default_themetab:鼎智需求:MENU菜单中的“个人中心”要始终默认进入主题页
+		setupmenu_wallpaper_in_personCenter:鼎智需求:MEN:菜单中修改壁纸，是否进入个人中心的壁纸界面
+		popmenu_leave_bottom_ani:锐伟弹出菜单动画
+	 	<已无效 - 现在桌面长按进入桌面编辑模式>workspace_longclick_display_contacts:桌面长按菜单中的联系人项 是否显示。true为显示.
+		menu_alva:亿通定制桌面修改控制开关.
+		popmenu_cellHeight:亿通需求，要将弹出对话框高度可调，便于和公司机器统一， 只针对popmenu_style=0的有效，默认为60，前提为popmenu_style=0有效.
+		popmenu_bg_shadow_full_screen:弹出菜单的背景阴影是否全屏。true为全屏，false则不包含状态栏
+		
+		*******************************************************<桌面设置>*******************************************************
+		
+	 	hide_backup_and_restore：是否在桌面设置中隐藏“备份与恢复桌面”菜单：true为隐藏，false为不隐藏.
+		disable_vibrator:是否去掉桌面设置菜单里的长按震动选项。true为去掉.
+		disable_flashbar_service:是否去掉桌面设置菜单里的开启侧边栏条目。true为去掉.
+		show_music_page_enable_config:桌面设置显示留声机页选项（show_music_page为true时有效）.
+		show_music_page_config_default_value：桌面设置留声机页选项默认值（show_music_page_enable_config为true时有效）.
+		show_camera_page_enable_config:桌面设置显示照相机页选项（show_camera_page为true时有效）.
+		show_camera_page_config_default_value：桌面设置照相机页选项默认值（show_camera_page_enable_config为true时有效）.
+		show_news_page_enable_config:桌面设置显示新闻页选项（show_news_page为true时有效）.
+		show_news_page_config_default_value：桌面设置新闻页选项默认值（show_news_page_enable_config为true时有效）.
+		
+		*******************************************************<场景>*******************************************************
+		
+		profile_ui_style:是否使用场景桌面，TRUE为开，false为关.
+		profile_ui_menu:场景Ui中菜单显示入口，true表示可以进入.
+		scene_loop;场景桌面是否实现循环，true表示开始循环.
+		scene_kj_remove:康佳场景的删除方式.		
+		scene_kangjia:是否为康佳定制场景，true表示为康佳，默认为false.
+		scene_door_open:场景桌面中门是外开还是内推，true表示外开，false为内推，默认为false.
+		scene_freamAnim;逐帧动画开关，false表示不执行改类动画.
+		scene_change:表示场景是否可以选择，true表示可以。默认为开true.
+		scene_aloneApp:判断场景是否为允许两个图标响应同一个应用，true表示允许，false表示不允许，默认为不允许.
+		scene_kangj_clock_anim:场景桌面时康佳时钟动画是否执行，默认为false.
+		scene_apptoast:判断场景中点击图标时如果未安装该应用，则提示未安装，true表示提示，false表示不提示，默忍false.
+		scene_first:判断场景是否比launcher先拉下，true为可以，默认为false.
+		scene_pkg:默认独立场景的包名.
+		scene_cls：默认独立场景的类名.
+		scene_kjmenu:独立场景时，菜单只显示切换场景功能，true表示只显示切换场景功能，默认为false.
+		scene_special_name：场景桌面特殊名称。true为“灵动桌面”，false为“场景桌面”.
+		scene_key_home:在场景界面的时候按home键返回经典桌面.
+		scene_idel_hide:表示场景布局管理器中是否显示info信息，默认为false.
+		scene_applist_loop:场景中主菜单滑动切页.
+		scene_home_return:当为场景桌面主菜单的时候，按home键直接return，不做任何操作,默认为false.
+		
+		*******************************************************<功能页>*******************************************************
+		
+		enable_media_hotseat_style_common:专属页面底边栏图标跟随主题变化,如果出现有的intent不匹配，则无法变化。
+		enable_media_hotseat_change_with_theme:专属页面底边栏图标是否跟随主题变化。
+		show_music_page:显示留声机页功能.（为false时show_music_page_enable_config无效）.
+		show_camera_page:显示照相机页功能.（为false时show_camera_page_enable_config无效）.
+		show_camera_page_entry_gallery: 相机页进入相册更多时，仅进入相册，不进入相册内部相机页拍摄的文件夹,默认为true
+		show_camera_take_picture_sound: 相机拍照时是否有提示音
+		show_camera_empty_date_time:没有照片时相机页是否显示日期时间
+		camera_picture_tween_time:相机页拍照后动画的时间
+		show_lyt_camera_ui:使用朗易通相机页定制ui
+		show_dz_camera_ui:使用鼎智相机页定制ui,要使用此功能请加上图片包并并show_lyt_camera_ui为true
+		show_dw_camera_ui:使用朵唯相机页定制ui,要使用此功能请加上图片包
+		show_camera_switch_button:显示选择前后摄像头按钮
+		camera_uni2_3_point_fix:Uni2.3拍照框黑边框去除
+		camera_thread_default_wait_time:UI线程等待camera线程的极限时间，太小可能会导致camera预览界面浮屏，太大可能导致ui界面卡屏无响应，默认5秒，最好不要改
+		camera_list_show_text:沈博宇需求，相机页列表显示编辑过的文字
+		enable_camera_share_button:相机页共享按钮
+		camera_preview_keep_light:相机页预览时背光不灭
+		camera_use_system_path:宝捷讯需求，根据系统选择的存储路径，保存相片
+		enable_back_camera_rotate:桌面设置相机页后摄像头拍出的照片默认旋转的角度
+		enable_back_preview_camera_rotate:桌面设置后摄像头预览时的角度
+		enable_front_camera_rotate:桌面设置相机页前摄像头拍出的照片默认旋转的角度
+		enable_preview_camera_rotate:桌面设置前摄像头预览时的角度
+		show_news_page:显示新闻页功能.（为false时show_news_page_enable_config无效）.
+		set_status_bar_background:新闻页设置无状态栏全屏.
+		show_flow_news_page:新闻页滑动呼出,在桌面边沿滑动时，呼出新闻页，安装新闻页apk后有效
+		show_flow_news_Rspone_Area:新闻页滑动呼出的响应区域，单位是像素
+		show_flow_news_for_dw:新闻页边界划出朵唯版，show_flow_news_page开启时有效,默认关闭support_loop_slide
+		news_package_name:配置新闻页包名
+		
+		*******************************************************<简易桌面(老人桌面)>*******************************************************
+		
+		enable_Simpale_Launcher:是否支持“简易桌面（老人桌面）”功能，true为开启,false为关闭。默认为true.
+		enable_Simpale_Launcher_Support_Cell_Num:“简易桌面（老人桌面）”的默认页面数量。默认为3（暂时没有最大值）.
+		enable_Simpale_Launcher_Defalut_Show:是否在桌面第一次开机时或者清除数据后再进入桌面时，默认直接进入“简易桌面（老人桌面）”，true为直接进入老人桌面,false为直接进入桌面待机界面。默认为false.
+		enable_Simpale_Launcher_Defalut_Font_size:“简易桌面（老人桌面）”的默认字体大小。0：小；1：中；2：大。默认为中.
+		enable_Simpale_Launcher_Defalut_Disable_Editor:“简易桌面（老人桌面）”是否默认设置为“禁止编辑”模式，true为设置为“禁止编辑”模式,false为不设置为“禁止编辑”模式。默认为false.
+		enable_Simpale_Launcher_Show_ExitItem_In_DeskSetting:“简易桌面（老人桌面）”的“桌面设置”界面中是否显示“返回经典桌面”这一项,true为显示,false为不显示。默认为true.
+		enable_Simpale_Launcher_Show_StandardLauncherItem:“简易桌面（老人桌面）”中是否显示的“标准桌面”icon,true为显示,false为不显示。默认为true.
+		enable_Simpale_Launcher_Show_ExitItem_In_Menu:“简易桌面（老人桌面）”的menu菜单中是否显示“返回经典桌面”这一项,true为显示,false为不显示。默认为false.
+		enable_Simpale_Launcher_DateAndWeek_Font_size:“简易桌面（老人桌面）”的“时间天气”item中“日期和星期”的字体大小。默认为33.
+		enable_Simpale_Launcher_Hide_App_List:“简易桌面（老人桌面）”在点击加号弹出的菜单中，不显示某些应用。格式为：“包名1#类名1；包名2#类名2”（以分号隔开）.
+		
+		*******************************************************<图标>*******************************************************
+		
+	 	trash_icon_pos: 垃圾桶出现的位置。0为顶部，2为底部中间，4为底部右边 ， 如果没有配置，则在程序中根据主菜单位置赋值，如果主菜单在右边，trash_icon的位置也在右边。如果在中间，则trash_icon在顶部.       
+		thirdAPK_add_background： 第三方图标是否添加背景框，false为不添加，true为添加。默认为true.
+		thirdapk_icon_scaleFactor: 第三方图标的缩放百分比，默认为100（华勤需求70）.
+		appbar_bag_icon：是否将箭头图标改为提包图标：true为改，false为不改.
+		icon_title_font：设置icon文字大小.
+		enable_icon_effect：是否打开图标点击效果：true为打开，false为关闭.
+		custom_virtual_path：客户可配置的虚图标的图片资源路径，如"/system/virtual"，填"nothing"为无配置.
+		custom_virtual_download_path：客户可配置的虚图标的下载路径，如"/system/download"，填"nothing"为无配置.
+		custom_sys_shortcut_path：客户可配置的系统快捷方式图标路径，如"/system/shortcut"，填"nothing"为无配置.
+		custom_icon_path：客户可配置的桌面图标路径，如"/system/icon"，再在该路径下放置客户的图标图片，填"nothing"为无配置.
+		custom_sys_widget_preview_path:客户可配置的系统小组件预览图资源路径， 如"/system/widget_preview"，填"nothing"为无配置,要配置替换 图片的名称，图片的Widget的包名和Provider的名称 到 sys_widget_preview, 图片的路径为theme/widget_preview.
+		custom_themebox_root_path：SD卡中下载主题的根目录路径，默认为/Coco/. 
+		custom_sdcard_root_path：SD卡中下载桌面相关内容的根目录路径，默认为/cooee/.
+		custom_virtual_icon：点击虚图标，如果应用程序没有安装并且cooee/download目录下没有对应的apk或者没有T卡 ，填"true"为提示用户“SD卡上没有此应用的安装包”，填"false"为提示用户下载.
+		app_icon_size: 配置图标的大小，为-1：代码自动适配.
+		display_widget_preview_hole：系统小组件图标(桌面编辑模式下方的系统小组)是否显示边框(如果开启开关support_add_shortcut后，在桌面编辑模式会显示快捷方式，但是快捷方式不会显示边框)。false为不显示，true为显示.
+	 	appbar_show_userapp_list:点击原来的下载图标，邑丰要求显示下载应用程序图标，和原来的进入Cooee市场区别。默认为false,进入cooee 市场.
+	 	contact3DShortcut_package_name :我们的快捷联系人图标点击进入应用程序的包名，默认为com.android.contacts。
+		contact3DShortcut_class_name :我们的快捷联系人图标点击进入应用程序的类名，默认为com.android.contacts.ContactShortcut康佳版本，要用这个替换contact3DShortcut_class_name = "com.kkandroid.contacts.ContactShortcut".
+		highLight_effect:图标选中后的效果，0为加背景图(图片：assets\theme\pack_source\icon-focus-bg.png)，1为变灰.
+		moveItemOnWorkspace：桌面图标是否可以拖动，true为可以，false为不支持,默认目前为关.
+		moveItemOnWorkspaceInEditMode 桌面编辑模式下是否可以进行图标换位功能，默认为false.
+		support_add_shortcut:桌面上是否支持创建快捷方式的图标的添加。true为允许，false为不允许.             
+		icon_title_space:图标和文字之间的间隔，如果配置为-1或者不配，表示用默认的数值，默认的数值为app_icon_size/10,对于文字多行显示的，间隔为0。配置为非0数值，就取客户配置的数值.
+		icon_top_margin:图标顶部留的空白大小，如果配置为-1或者不配，表示用默认的数值，默认的数值为app_icon_size/10,对于大于4行显示的，间隔为app_icon_size/20。配置为非0数值，就取客户配置的数值.
+		icon_bottom_margin:图标文字和底部预留的空白大小。如果配置为-1或者不配，表示用默认的数值， 默认的数值  为app_icon_size/10,对于大于4行显示的，间隔为app_icon_size/20。配置为非0数值，就取客户配置的数值.
+		icon_bottom_offset:为支持带下阴影背景图，需要将背景图里面的图标往上抬，上抬的大小，默认 为0，表示居中显示在背景图中.
+		icon_support_shadow:桌面显示图标是否支持阴影，默认为支持.
+		icon_support_shadow_topoffset:桌面图标支持阴影的时候，阴影图标向下的偏移量 可配置为浮点数，如3.5等.
+		icon_shadow_radius:应用icon阴影的半径,默认为1 dp
+		icon_shadow_color:应用icon阴影的颜色，默认为0x45000000
+		icon_title_draw_one_time:亿通需求，要求支持图标下面的文字只画一次效果.
+		disable_show_widget3d_virtral:配置到桌面的3D插件，未安装或卸载时不显示虚图标.
+		ui_style_drop_show_clone:拖动时虚图标预位置预览显示为icon的clone。true为打开，false为以前显示方框.
+		enable_new_add_app_flag: teapotXu add, 对于新安装的应用在应用图标的左上角显示“新”字，加载后该标志消失。 默认关闭为false.
+		disable_execute_change_icon_in_custom:如果客户本地有default_layout.xml的情况下，不读取换图标功能的这段配置，而是改从launcher的apk中的配置文件中读取换图标的配置.
+		workspace_edit_mode_shake:锐伟编辑模式图标呼吸灯效果
+		dynamic_icon: 动态图标，目前时钟，日历和天气的显示.
+		
+		*******************************************************<主题>*******************************************************
+		
+		hide_online_theme_button：在更换主题界面（非个人中心，launcher自己的切换主题界面）中是否隐藏“在线主题”按钮： true为隐藏，false为不隐藏.		
+		hide_remove_theme_button:是否隐藏“删除主题”按钮（非个人中心，launcher自己的主题界面）。true为隐藏.		
+		disable_theme_preview_tween:（非个人中心，launcher自己的切换主题预览界面）主题预览界面切换预览图时取消动画。true为无动画.
+		fast_change_theme:换主题时是否不重启快速换主题，默认为false重启.
+		theme_select_extra_name:主题选择/主题盒子显示特殊名称。true为“主题”，false为“百变主题”.
+		when_change_theme_outofmemory:当换主题时出现outofmemory的问题时打开此开关.
+		show_theme_loading_animation:在切换主题的时候，是否显示动画，true为显示，false为不显示
+		theme_loading_tween_anim_time:在切换主题的时候，控制入场背景和出场背景的时间,单位为ms
+		thme_loading_frame_anim_time:在切换主题过程中，如果主题切换太快，为了使中间的补间动画能够显示完整，需要设置动画的最小值，如果切换时间小于这个值时，等待，大于这个值直接收回动画，时间为ms
+		
+		*******************************************************<workspace>*******************************************************
+		
+		default_workspace_pagecount_min：最小页面数量,最小为1（ui_style_miui2为false时使用）.
+		default_workspace_pagecount_max：最大页面数量,最大为9（ui_style_miui2为false时使用）.
+		default_workspace_pagecounts：launcher启动时的默认页面数量,范围（default_workspace_pagecount_min~default_workspace_pagecount_max）（ui_style_miui2为false时使用）.
+		default_home_page：launcher启动时的桌面主页（范围0~(default_workspace_pagecounts-1) 0表示第一页）.
+		show_page_edit_on_key_back：桌面按返回键是否弹出屏幕编辑界面：true为弹出，false为不弹出.
+		desktop_page_effect_id：设置桌面默认切页特效（0~9 默认9）.
+		show_progress_dialog：加载桌面时是否显示提示框：true为显示， false为不显示.
+		homekey_to_default_page；按HOME键是否需要回到默认页面，true为回到，false 为不回.
+		page_tween_time:切页动画的时长。默认0.5.
+		page_tween_type:切页动画的类型。0为Quint.OUT，1为Linear.INOUT。默认为0
+		workspace_celllayout_cell_bottompadding:默认为-1,自动适配，去掉底边栏和页面指示器的高度剩下的高度，最下面的cell的底边距.
+		workspace_celllayout_cell_leftpadding:默认为-1,自动适配，最左边的cell的左边距.
+		workspace_celllayout_cell_rightpadding:默认为-1,自动适配，最右边的cell的右边距.
+		workspace_celllayout_cell_toppadding:默认为-1,自动适配，最上面的cell的上边距.
+		workspace_miui_editmode_spec_shown: 朗易通特殊需求：桌面长按widget显示，widget的标题字体可以调节大小，且标题下点点显示去掉，表示widget占用空间的（4*4等）显示在标题上（如文件夹  4*1）。默认为关闭此功能，即false。
+		media_view_bg_alpha_max: 专属页背景图的透明度最大值(大于0，小于1)。默认为1f.
+		media_view_black_bg：媒体页使用黑色背景。默认关闭
+		disable_workspace_edit_mode: false表示开启桌面编辑模式，true则关闭（鼎智4.0平台小米）.
+		unlock_workspace_exit_edit_mode: true表示开启解锁后可以退出桌面编辑模式，回到正常待机界面，false表示解锁后不做处理.
+		<已无效 - 默认为true>workspace_editmode_disable_operate_widget_icon: true表示桌面编辑模式下不可以操作widget和iconapp，false则可以（鼎智4.0平台小米）.
+		enable_set_editmode_workspace_pagecount:鼎智客户需求,能够设置桌面缩略图和编辑模式下可以添加的页面数。true为可以设置，false为不可以设置.
+		default_set_editmode_workspace_pagecount:客户可以设置的页面数(enable_set_editmode_workspace_pagecount为true时作用).
+		support_loop_slide:桌面和场景桌面主菜单是否支持循环滚动，false为不支持，true为支持.
+		enable_media_view_page_effect:媒体页(相机页和音乐页)是否开启切页特效（相机页风车特效有问题，开启时请去掉风车特效）
+		workspace_celllayout_edit_scale:在编辑模式下屏幕缩放的比例，范围0~1
+		
+		*******************************************************<title(font)>*******************************************************
+		
+	 	show_font_bg：是否显示字的圆角矩形背景：true为显示，false为不显示（font_double_line为false时有效）.
+	 	font_double_line：是否两行显示：true为两行，false为一行（该值为true时show_font_bg配置无效）.
+		hide_title_bg_shadow:是否隐藏字体描边和阴影。true为隐藏.
+		title_outline_shadow_size:描边和阴影的宽度。hide_title_bg_shadow为false时作用.
+		title_outline_color:描边的颜色（格式:#AARRGGBB 默认:#AA000000）。hide_title_bg_shadow为false时作用.
+		title_shadow_color:阴影的颜色（格式:#AARRGGBB 默认:#20000000）。hide_title_bg_shadow为false时作用.
+		title_style_bold:文字是否显示粗体。true为粗体.
+		font_shadow_offset_enable:应用字体偏移阴影是否使能，默认为true
+		font_shadow_offset_radius:应用字体偏移阴影的半径
+		font_shadow_offset_y:应用字体偏移阴影的纵偏移值
+		font_shadow_offset_color:应用字体偏移阴影的颜色（格式:#AARRGGBB 默认:#DD000000）
+		font_shadow_radius:应用字体阴影的半径
+		font_shadow_color:应用字体阴影的颜色（格式:#AARRGGBB 默认:#CC000000）
+		icon_title_width:控制Icon title的宽度,显示字的个数，0<icon_title_width<1.0
+		reminder_font:空白页面提示语文字的大小(empty_page_add_reminder为true时作用).
+		
+		*******************************************************<文件夹>*******************************************************
+		
+		miui_v5_folder： 小米V5风格的文件夹开关,默认为打开.
+		miui_v6_folder： 小米MIUI6风格的文件夹开关,默认为false,miui_v5_folder blur_enable 开启时，有效.		
+		miui_v6_folder_open_time:MIUI6效果文件夹打开时间
+		miui_v6_folder_close_time:MIUI6效果文件夹关闭时间
+		blur_enable: 是否打开模糊效果.
+		fboScale: 新创建的Framebuffer的缩放比例,此参数理论上值越大越影响文件夹打开动画速度,720p打分辨率的一般设为0.2f,但是为了效果小分辨率的则可设置为0.5f(视具体机型性能而定).
+		blurInterate: 模糊迭代次数,决定模糊效果的平滑度(范围2-5,一般迭代2次就可以了,理论上分辨率越高值越大,模糊效果越好,但很耗时,需兼顾速度).
+		blurRadius: 模糊半径,决定整体模糊效果(范围3.0f-6.0f,此值受fboScale影响,fboScale越大则此值也相应可以越大,分辨率越高值越大,模糊效果越好,但很耗时,需兼顾速度).
+		blurDuration: 动画时间 (范围0.35f-0.55f,文件夹打开的动画时间,主要配合模糊效果,避免模糊效果因耗时而卡住动画帧).
+		maskOpacity: 遮罩层半透值(范围在0.5f-0.7f,调整文件夹模糊后整体亮度 ).
+		hide_empty_folder:康佳需求，自动隐藏图标全部被隐藏的空文件夹,需要打开隐藏，安装密语或配合指纹手机内的隐藏才可使用.
+		v5_folder_eidt_mode:在v5文件夹打开后有效，有编辑按钮，点击后可增、删icon，修改文件夹名字。true为打开，false为关闭。
+		blurred_bg_offset:文件夹模糊背景偏移量
+		folder_max_num:文件夹的最多的个数（为-1，以当前主题的值为准。如果不为-1，以这值为准）
+		scroll_trigger_click:在Icon以及文件夹上滑动，手指弹起时若在Icon上或者文件夹上响应点击事件.
+		enable_deletefolder_when_drag:当拖动文件夹icon出去，文件夹中icon只剩一个时，是否删除文件夹，true表示删除，false表示不删除.
+		
+		*******************************************************<小组件(widget)>*******************************************************
+		
+		appbar_widgets_special_name:appbar的小组件是否显示特殊名称：true为“窗口小部件”，false为“小组件”.
+		widget_revise_complete:是否需要修正widget显示不全的问题，true为打开修正。(有显示不全的widget时可以打开此配置，但会导致widget缩小和视频widget有重影的问题).
+		widget_display_shortcut3D:内置Launcher时,桌面编辑模式下边的widget列表是否显示“快捷方式”图标，true为显示，false为不显示.(非内置launcher，一定显示).
+		sys_widget_sort_front:桌面编辑模式下，底边栏列表显示widge的时候，系统插件排列到前面，下载的排在后面.
+		widget_scrollV_pkgs:配置可以上下滑动的插件的包名，多个包名时请用;隔开.
+		widget_preview_show_indicator:小组件栏是否显示切页指示器
+		widget_preview_loop:小组件栏是否支持循环滑动，true为支持，false为不支持
+		widget_preview_height:小组件栏中图标的高度，默认为0
+		widget_preview_pop_signal_up:屏幕向上滑弹出小组件栏
+		
+		*******************************************************<状态栏>*******************************************************
+		
+		status_bar_foucs_action:在桌面透明显示的时候，发送的广播消息.
+		status_bar_lost_foucs_action：:在桌面不透明显示的时候，发送的广播消息.
+		status_bar_broadcast_delay="0".
+		statusbar_support_translucent：桌面是否支持透明显示开关，默认为false.
+		status_bar_send_opaque_onstop：在进入其他应用的时候，发送不透明显示。设定为true的时候表示在OnStop中发送，设定为false的时候在onWindowFocusChanged中发送.
+		show_status_bar_shadow:康佳需求在状态栏下面画一条阴影.
+		statusbar_alpha_change_support: 讯虎客户自己做状态栏颜色的控制，要在小米 launcher里面加个监听(默认为false)，ture表示打开支持.
+		reflect_change_statusbar:是否通过反射方式调整状态栏透明度，默认为false不开启.
+		fanzhuo_status_bar_transport_broadcaset:凡卓客需，状态栏透明的消息.
+		status_bar_hide_trashIcon_show:当垃圾桶显示的时候，状态栏是否隐藏
+		status_bar_transport:状态栏半透明，安卓4.4以上有效
+		hide_status_bar: 是否需要设置状态栏透明。true 设置状态栏透明，false 不透明.
+		enable_pull_down_status_bar:是否可以在桌面下拉状态栏
+		fz_pull_down_status_bar:凡卓特需：enable_pull_down_status_bar为true时根据系统属性下拉状态栏
+		
+		*******************************************************<mms_call_contact>*******************************************************
+		mtk_launcher_unread_support：兼容MTK获取未接电话和未读短信数量的方式.使用前提：MTK版本必须MTK_LAUNCHER_UNREAD_SUPPORT是打开的， 并且call_package_name、call_component_name、mms_package_name和mms_component_name要配置正确.
+		spreadStkPatch:华掌控制SIM卸载消息检测.
+		show_dial_when_missed_call:有未接来电时点“拨号”应用仍进入拨号盘界面而非通话记录界面.
+		show_missed_call_sms:是否显示未接来电和未读短信的数字泡泡框。true为显示.
+		call_package_name: show_missed_call_sms为true时需填写的手机/电话/拨号的包名，默认为com.android.contacts.
+		call_component_name：show_missed_call_sms为true时需填写的手机/电话/拨号的类名。一般为"com.android.contacts.DialtactsActivity".
+		mms_package_name:show_missed_call_sms为true时需填写的短信的包名。默认为com.android.mms.
+		mms_component_name:show_missed_call_sms为true时需填写的短信的类名。默认为com.android.mms.ui.ConversationList.
+		
+		*******************************************************<特殊的功能>*******************************************************
+		
+		####性能####
+		enable_service:是否提高launcher优先级，true为提高优先级，false为不提高，默认为false.
+		reduce_load_priority:设置为true时降低加载线程优先级，可解决启动时桌面无响应的问题，默认为false.
+		mem_clear_function_switch: teapotXu add,表示内存清理功能的开关，true为该功能开启，false为关闭.
+		pause_egl_helper:针对部分机器进入其他应用时花屏的补丁，默认为false关闭.解决花屏问题需设置为true打开补丁.
+		enable_texture_pack:纹理是否打包之后再上传，默认为true打包，不打包可以节省内存但运行速度会有一点降低.
+		enable_showFPS:是否显示“帧率”相关信息（“帧率实时值”、“帧率平均值”、“帧率峰值”和“帧率方差值”）。默认关闭.
+		enable_showUseTime:是否显示“桌面相关操作所用时间”相关信息（“桌面加载所用时间”、“桌面启动应用所用时间”和“应用返回桌面所用时间”）。默认关闭.
+		enable_opt_touch:优化桌面滑动时手指跟随速度（可能会引起滑动时不平滑的问题，默认为false）
+		release_widget:释放插件内存。true:打开，false :关闭。默认为关闭.
+		enable_battery_reduce:设置为true可以降低耗电量（可能会影响流畅度），默认为false
+		render_sleep_time:刷新暂停时间，单位毫秒， 值的大小跟手机有关（可能会影响流畅度），enable_battery_reduce必须为true时才有用
+		enable_scroll_smooth:优化滑动体验（会导致换主题时桌面重启，默认为false关闭）
+		
+		####效果####
+		anti_aliasing：是否打开抗锯齿： true为开启，false为关闭 （注意：只针对320480及以下分辨率的屏幕作用。目前开启后图标会变模糊）.
+	 	broadcast_state：是否开启通知栏广播，true为开启（进入idle广播：com.cooee.launcher.action.show_workspace；进入主菜单广播：com.cooee.launcher.action.show_app；退出主界面广播：com.cooee.launcher.action.stop；回到主界面广播：com.cooee.launcher.action.start），false为关闭.
+		default_global_search:按搜索键默认打开的搜索引擎（如百度搜索填写"com.baidu.searchbox"），填写"nothing"不指定搜索引擎.
+		
+	 	####launcher的功能####(切页，天气，粒子，安装应用，长按，双击，滑动)
+		disable_double_click:是否去掉双击选中功能。true为去掉.
+		keypad_event_of_focus:pad手机是否开启触摸键操作的功能。true为开启.
+		default_close_vibrator:默认是否关闭长按震动。true为关闭.
+		allAppSortType： launcher第一次启动时桌面app的排序方式0：按名称排序；1：系统应用在前(按照名称排序)，非系统应用在后(按照名称排序)；2：default_layout.xml中配置的“icon”在前(先安装的在前，后安装的在后)，系统应用其次(先安装的在前，后安装的在后)，非系统应用在最后(先安装的在前，后安装的在后).
+		pageEdit_switch_factor:页面编辑器状态，滑动翻屏的比例因子。默认为向左 或者向右滑动0.25页左右的时候，切页。数值越小，越灵敏.
+		install_app_at_configed_cell:launcher在第一次启动后安装某些应用，这些应用可以按照default_layout文件中的配置，放在桌面指定位置.
+		install_apk_ignore_locale:为true时忽略设备的语言，一律安装内置apk，默认为false（只有语言为中文时才安装内置apk）.
+		multitouch_to_desktop_manager：桌面双指操作的时候，是否进入页面缩略图.
+		enable_particle:是否开启粒子特效,true为开启,false为关闭.
+		install_apk_delay:内置apk安装延迟时间，单位是秒，默认为0（出现system无响应时需调大此时间）.
+		install_apk_delay_day:客制化内置延迟安装总时间，单位是天，默认为0.
+		proximity_sensor_scroll:是否开启距离感应器滑动页面功能，默认为false；proximity_sensor_default：默认为true，按下光感时桌面或主菜单向右翻一页.
+		dz_proximity_sensor_scroll:鼎智光感切页
+		xunhu_sensor:讯虎定制特殊传感器切页
+		xunhu_proximity_sensor_scroll:讯虎定制普通光感切页
+		chenxiang_proximity_sensor_scroll:晨想定制普通光感切页
+		chenxiang_touchs_onoff:true:使用晨想内部光感切页开关；false：otherwise
+		konka_gesture_recognition:康佳定制：发广播开启手势操作功能
+		config_move_page_speed:手指滑动切页时，页面移动的速度根据该配置改变
+		indicator_style_s4：桌面指示器的特殊功能（按住时左右滑动可以支持切页）.
+		single_handler_start_self:单手操作是否自启动:默认为true，true为自启动，false为手动
+		capture_when_scroll_page:切页时对系统插件截图，使系统插件在切页时也能播放动画（开启后会造成切页不流畅）
+		support_longclick_multitouch_switch_page： 桌面双指操作:一指按图标、一指滑动切页，实现ICON的便利移动.
+		hexing_scroll_page:和兴基业切页需求
+		enable_launcher_take_screen_shot:是否截取launcher屏幕，true为截取，false为不截取.
+		pageedit_animate_support_scale:进入页面缩略图和退出的动画效果，设定为true表示放大效果，false表示旋转效果.
+		install_app_at_first_empty_cell:新安装的应用优先填充空白的位置.
+		disable_free_weather:是否显示自由天气功能.
+		freeweather_weatherType:配置自由天气默认天气情况，"1"表示关联天气,"2"雾，"3"雾霾，"4"晴，"5"多云，"6"雪，"7"雨，"8"雷，"9"阴"，默认为"0",无效果
+		freeweather_power_toast:点击天气以后，弹出提示框，“打开此功能将消耗更多电量”,默认为false
+		page_indicator_creep_style:锐伟页面指示器爬行效果
+		screen_editor_division_line_enable:桌面缩略图界面。每页分割线（风格线）是否显示
+		enter_app_anim_type:进入应用时的动画。0为不指定(用系统默认的)，1为zoom in，2为zoom out。默认为0
+		halfTapSquareSize:点击屏幕时手指滑动距离超过此值则被认为是划屏操作，单位pix，默认值15.
+		enable_icon_small_effect:先变小，后变大的效果,默认为true
+		visitor_mode_intent:访客模式intent配置，Intent传递的参数为putExtra("VisitorSet", true) 打开系统访客模式；putExtra("VisitorSet", false) 关闭系统访客模式.
+		use_system_long_press_duration:长按响应时间是否用系统的设置
+		freeweather_hide_lowpower:自由天气：为了低电量，在天气显示5秒以后就消失自由天气
+		freeweather_show_broadcast:自由天气：为了低电量，客户需求，只有当客户发广播的时候才显示天气，其他情况下不显示天气
+		freeweather_samweatherclockPkg:自由天气客户端的包名
+		freeweather_samweatherclockCls:自由天气客户端的类名
+		freeweather_other_custom:自由天气使用其他天气客户端
+		hideDuration:自由天气对于低电量的时候，可以配置消失的时间，默认为5秒
+		####其它####
+	 	<已无效>click_indicator_enter_pageselect:点击页面指示器进入页面选择器:true为进入，false为无响应. 
+		<已无效 - CellLayout3D中canShowReminder设置为false>empty_page_add_reminder:空白页面是否添加“轻敲并按住屏幕以添加项目”的提示语。true为添加(indicator_style_s4为true时有效).
+		restart_when_orientation_change:默认为false，华勤部分项目闹钟不显示，修改为true可以解决此问题.
+		removeEmptyItem：当shortcutgroup中配置的Item package为空或者classname为空，或者Item匹配不到系统中的应用，是否删除item所占的格子.
+		install_app_at_hotseat_configed_cell:康佳需求，为CostDown,底边栏要求可以不放内置应用，预留位置，通过包名和类名来匹配后续安装的应用程序.
+		kedingxun_sys_setting:科鼎讯的系统设置（类名为com.android.settings.SettingsMain）.
+		<已无效>enable_miui_log:是否打开桌面的log,默认为false.(平台默认打开).
+		init_applist_at_first_empty_cell_every_page:当我们配置shortcutgroup里面有ITEM，为false 每页的其他应用都是在后面显示，
+		setupmenu_by_view3d:使用setUpMenu3D，废除setUpMenu，值永远为true	
+		longclick_icon_to_uninstall:朗易通需求，长按图标，图标抖动，非系统应用可点击卸载
+		enable_IndicatorBg:是否支持“页面指示器下面，画一条横线”功能，true为开启,false为关闭。默认为false.
+		personcenter_changetheme_use_activity:首次开机手机上响应广播换主题比较慢，先改为使用activity	
+		custom_start_activity_send_broadcast:launcher启动任意app的同时发送一个指定广播(客户指定)，默认为false	
+		toast_show_one_enable:拍照提示内存不足和应用图标应用未找到，是否只提示一次，默认为false。
+		enable_effect_by_unlock:【产品功能】是否开启解锁效果，默认为false	
+		*******************************************************特效*******************************************************
+		enable_new_particle:是否开启launcher粒子特效,true为开启,false为关闭.打开enable_new_particle时必须设置enable_particle为false
+		particle_scroll_distance:滑动时产生粒子的间隔，数值越小，粒子越密集.
+		particle_max_num:手机可以产生粒子的最大数量,最小值为1.
+		particle_default_value:新版粒子默认选项.
+		switch_page_time:切页等待时间
+		half_open_folder:文件夹打开效果，中间对半打开，目前针对540X960其他分辨率需要换图
+		reflect_motion_sensor:晨道需求：是否支持手势功能反射
+		
+		show_lyt_camera_kj:主要用于修复修复康佳时间线不对齐,true:使用此开关，false：不使用
+		spreadStkAlwaysInFolder:sim卡是否一直在文件中显示，默认为false
+        stkPackageName:配置stk的包名(多个stk，不同的包名有“;”分开)
+        page_effect_default_back:平移特效有回弹效果
+        *************客户独立开关************************
+        cx_icon_hide_for_client_enable:隐藏图标功能。默认为false，客户独立功能。
+        fz_ui_style: 凡卓定制UI，主要涉及桌面设置，默认false
+    -->
+
+    <general_config
+        allAppSortType="2"
+        hotseat_browser_default_app="nothing"
+        hotseat_browser_default_uri="nothing"
+        hotseat_browser_use_special_name="false"
+        hotseat_dockbar_icon_number="4"
+        hotseat_icon_title_no_background="false"
+        hotseat_icon_pos_fixed="false"
+        hotseat_hide_title="false"
+        hotseat_no_anim="true"
+        hotseat_scroll_triggle_click="false"
+        hotseat_show_line="false"
+        hotseat_height="93"
+        hotseat_show_bg="false"
+        hotseat_icon_average_show="true"
+        hotseat_media_icon_size="-1"
+        hotseat_icon_reflection_enable="false"
+        alva_appstore_className="com.eton.applicationmanager.UserAppActivity"
+        alva_appstore_pkgName="com.eton.applicationmanager"
+        anti_aliasing="true"
+        app_icon_size="-1"
+        app_icon_size_320p="-1"
+		app_icon_size_480p="-1"
+		app_icon_size_540p="-1"
+		app_icon_size_720p="-1"
+		app_icon_size_1080p="-1"
+        appbar_bag_icon="false"
+        appbar_no_menu="false"
+        appbar_show_userapp_list="false"
+        appbar_widgets_special_name="false"
+        blurDuration="0.35f"
+        blurInterate="2"
+        blurRadius="6.0f"
+        blur_enable="true"
+        blur_bg_enable="false"
+        broadcast_state="false"
+        call_component_name="com.android.contacts.activities.DialtactsActivity"
+        call_package_name="com.android.contacts"
+        cancel_dialog_last="false"
+        cellCountX="4"
+        cellCountY="5"
+        change_wallpaper_on_theme="true"
+        click_indicator_enter_pageselect="true"
+        contact3DShortcut_package_name="com.android.contacts"
+        contact3DShortcut_class_name="com.android.contacts.ContactShortcut"
+        custom_default_wallpaper_name="nothing"
+        custom_icon_path="/system/launcher/icon"
+        custom_sdcard_root_path="/cooee/"
+        custom_sys_shortcut_path="nothing"
+        custom_sys_widget_preview_path="nothing"
+        custom_themebox_root_path="/Coco/"
+        custom_virtual_download_path="nothing"
+        custom_virtual_icon="false"
+        custom_virtual_path="nothing"
+        custom_wallpapers_path="nothing"
+        custom_start_activity_send_broadcast="false"
+        camera_uni2_3_point_fix="true"
+        cx_icon_hide_for_client_enable="false"
+        default_close_vibrator="false"       
+        default_global_search="nothing"
+        default_home_page="0"
+        default_open_shake_wallpaper="false"
+        default_set_editmode_workspace_pagecount="99"
+        default_workspace_pagecount_max="9"
+        default_workspace_pagecount_min="1"
+        default_workspace_pagecounts="5"
+        desktop_page_effect_id="4"
+        disable_double_click="true"
+        disable_execute_change_icon_in_custom="false"
+        disable_flashbar_service="true"
+        disable_free_weather="true"
+        disable_move_wallpaper="false"
+        disable_set_wallpaper_dimensions="false"
+        disable_shake_wallpaper="true"
+        disable_show_widget3d_virtral="false"
+        disable_vibrator="false"
+        disable_workspace_edit_mode="false"
+        disable_x_effect="false"
+        display_widget_preview_hole="false"
+        dispose_cell_count="true"
+        editmode_permit_toScene="false"
+        empty_page_add_reminder="false"
+        enable_Simpale_Launcher="true"
+        enable_Simpale_Launcher_Defalut_Disable_Editor="false"
+        enable_Simpale_Launcher_Defalut_Font_size="1"
+        enable_Simpale_Launcher_Defalut_Show="false"
+        enable_Simpale_Launcher_Support_Cell_Num="3"
+        enable_Simpale_Launcher_Show_ExitItem_In_DeskSetting="true"
+        enable_Simpale_Launcher_Show_StandardLauncherItem="true"
+        enable_Simpale_Launcher_Show_ExitItem_In_Menu="false"
+        enable_Simpale_Launcher_DateAndWeek_Font_size="33"
+        enable_Simpale_Launcher_Hide_App_List="com.example.aaaaaaaa#com.example.aaaaaaaa.MainActivity;com.example.bbbbbbbb#com.example.bbbbbbbb.MainActivity"
+        enable_icon_effect="false"
+        enable_new_add_app_flag="false"
+        enable_particle="false"
+        enable_scroll_to_widget="false"
+        enable_service="true"
+        enable_set_editmode_workspace_pagecount="false"
+        enable_texture_pack="true"
+        enable_media_hotseat_change_with_theme="false"
+        enable_media_hotseat_style_common="false"
+        enable_mainmenu_widget_show_effect="false"
+        enable_effect_by_unlock="true"
+        fanzhuo_status_bar_transport_broadcaset="false"
+        fast_change_theme="true"
+        fboScale="0.2f"
+        font_double_line="false"
+        font_shadow_offset_enable="true"
+        font_shadow_offset_radius="0"
+		font_shadow_offset_y="1.0"
+		font_shadow_offset_color="#88000000"
+		font_shadow_radius="0"
+		font_shadow_color="#CC000000"
+		folder_max_num="-1"
+        halfTapSquareSize="15"
+        applist_hide_hotseat_apps="true"
+        hide_add_shortcut_dialog="false"
+        hide_appbar="false"
+        hide_backup_and_restore="true"
+        hide_empty_folder="false"
+        hide_home_button="true"
+        hide_mainmenu_widget="false"
+        hide_online_theme_button="true"
+        hide_remove_theme_button="false"
+        disable_theme_preview_tween="false"
+        hide_status_bar="false"
+        hide_title_bg_shadow="false"
+        highLight_effect="1"
+        hight_light_async="true"
+        hight_light_delay="0.02"
+        homekey_to_default_page="false"
+        icon_bottom_margin="8"
+        icon_bottom_offset="0"
+        icon_support_shadow="false"
+        icon_support_shadow_topoffset="0"
+        icon_title_draw_one_time="false"
+        icon_title_font="12"
+        icon_title_space="-1"
+        icon_top_margin="-1"
+        icon_shadow_radius="0"
+        icon_shadow_color="#45000000"
+        indicator_style_s4="false"
+        install_apk_delay="60"
+        install_apk_delay_day="0"
+        install_apk_ignore_locale="false"
+        install_app_at_configed_cell="false"
+        install_app_at_first_empty_cell="false"
+        install_app_at_hotseat_configed_cell="false"
+        install_change_wallpaper="false"
+        kedingxun_sys_setting="false"
+        keypad_event_of_focus="false"
+        liveWallpaperQihuan="true"
+        loadapp_in_background="true"
+        mainmenu_add_black_ground="false"
+        mainmenu_addbackgroud="false"
+        mainmenu_explorers_use_default_uri="false"
+        mainmenu_page_effect_id="0"
+        mainmenu_widget_display_contacts="false"
+        mainmenu_widget_display_folder="true"
+        maskOpacity="0.52f"
+        mem_clear_function_switch="false"
+        menu_alva="false"
+        menu_konka="false"
+        menu_long_press_not_open="false"
+        menu_exclusive_page_enable="false"
+        menu_wyd="false"
+        miui_v5_folder="true"
+        miui_v6_folder="true"
+        miui_v6_folder_open_time="0.1"
+        miui_v6_folder_close_time="0.6"
+        mms_component_name="com.android.mms.ui.ConversationList"
+        mms_package_name="com.android.mms"
+        moveItemOnWorkspace="true"
+        moveItemOnWorkspaceInEditMode="false"
+        mtk_launcher_unread_support="false"
+        multitouch_to_desktop_manager="true"
+        onstart_change_wallpaper_setDim="true"
+        page_tween_time="0.35"
+        pageedit_animate_support_scale="false"
+        pause_egl_helper="false"
+        pop_menu_style_BlackBG_FontWhite="false"
+        popmenu_cellHeight="60"
+        popmenu_left_padding_ratio="0.07"
+        popmenu_style="1"
+        popmenu_text_alpha="200"
+        popmenu_title_font="0"
+        profile_ui_menu="true"
+        proximity_sensor_default="true"
+        proximity_sensor_scroll="false"
+        proximity_sensor_to_change_wallpaper="false"
+        reduce_load_priority="false"
+        reflect_change_statusbar="false"
+        reminder_font="15"
+        removeEmptyItem="false"
+        replaceContactIcon="false"
+        restart_when_orientation_change="false"
+        scene_aloneApp="false"
+        scene_applist_loop="true"
+        scene_apptoast="false"
+        scene_change="true"
+        scene_cls="com.cooee.scene.MiuiFreeMain"
+        scene_door_open="true"
+        scene_first="true"
+        scene_freamAnim="true"
+        scene_home_return="false"
+        scene_idel_hide="false"
+        scene_kangj_clock_anim="false"
+        scene_kangjia="false"
+        scene_key_home="false"
+        scene_kj_remove="true"
+        scene_kjmenu="false"
+        scene_loop="false"
+        scene_pkg="com.cooee.miuikj"
+        scene_special_name="true"
+        scroll_trigger_click="false"
+        sensor_delay_level="4"
+        setupmenu_by_system="false"
+        setupmenu_popmenu_show_style="false"
+        setupmenu_show_alva_appstore="false"
+        setupmenu_show_software="false"
+        shake_wallpaper_duration="5"
+        show_camera_page="false"
+        show_camera_page_config_default_value="true"
+        show_camera_page_enable_config="true"
+        show_camera_page_entry_gallery="true"
+        show_camera_take_picture_sound="false"
+        show_camera_empty_date_time="true"
+        camera_picture_tween_time="0.8f"
+        show_lyt_camera_ui="false"
+        show_dz_camera_ui="false"
+        show_lyt_camera_standard_list="false"
+        show_camera_switch_button="true"
+        camera_thread_default_wait_time="5"
+        show_dial_when_missed_call="false"
+        show_font_bg="false"
+        show_missed_call_sms="true"
+        show_music_page="false"
+        show_music_page_config_default_value="true"
+        show_music_page_enable_config="true"
+        show_news_page="false"
+        show_news_page_config_default_value="true"
+        show_news_page_enable_config="true"
+        show_page_edit_on_key_back="false"
+        show_progress_dialog="false"
+        show_status_bar_shadow="false"
+        show_widget_shortcut_bg="false"
+        spreadStkAlwaysInFolder="false"
+        spreadStkPatch="false"
+        stkPackageName="com.android.stk;com.android.stk1"
+        status_bar_broadcast_delay="0"
+        status_bar_foucs_action="com.konka.action.STATUSBAR_TRANSLUCENT"
+        status_bar_lost_foucs_action="com.konka.action.STATUSBAR_OPAQUE"
+        status_bar_send_opaque_onstop="false"
+        statusbar_alpha_change_support="false"
+        statusbar_support_translucent="false"
+        support_add_shortcut="true"
+        support_finger_print="false"
+        support_hide_apps="false"
+        support_longclick_multitouch_switch_page="false"
+        support_loop_slide="true"
+        sys_widget_sort_front="true"
+        theme_select_extra_name="true"
+        thirdapk_icon_scaleFactor="103"
+        title_outline_color="#AA000000"
+        title_outline_shadow_size="1"
+        title_shadow_color="#20000000"
+        title_style_bold="false"
+        toast_show_one_enable="false"
+        trash_icon_pos="0"
+        ui_style_drop_show_clone="false"
+        unlock_workspace_exit_edit_mode="false"
+        visitor_mode_intent="Konka.Visitor.Mode"
+        wallpaper_has_edage="false"
+        wallpapers_from_apk_packagename="nothing"
+        when_change_theme_outofmemory="false"
+        widget_display_shortcut3D="false"
+        widget_revise_complete="false"
+        widget_scrollV_pkgs="com.android.mms"
+        widget_shortcut_lefttop="false"
+        widget_shortcut_title_top="false"
+        widget_title_weight="0.3"
+        workspace_celllayout_cell_bottompadding="17"
+        workspace_celllayout_cell_leftpadding="13"
+        workspace_celllayout_cell_rightpadding="13"
+        workspace_celllayout_cell_toppadding="0"
+        workspace_editmode_disable_operate_widget_icon="false"
+        workspace_longclick_display_contacts="false"
+        change_freeweather_wallpaper="true"
+        set_status_bar_background="false"
+        setupmenu_android4_with_no_icons="false"
+        popup_menu_no_background_shadow="false"  
+        setupmenu_by_view3d="true"
+        setupmenu_pop_by_signal_up="false"
+        workspace_miui_editmode_spec_shown="true"
+        media_view_bg_alpha_max="1f"
+        thirdAPK_add_background="true"
+        activity_actionBar_display_icon="false"
+        enable_icon_small_effect="false"
+        init_applist_at_first_empty_cell_every_page="false"
+		enable_showFPS="false"
+        enable_showUseTime="false"
+        show_PersonCenter_default_themetab="false"
+        setupmenu_wallpaper_in_personCenter="false"
+        status_bar_hide_trashIcon_show="true"
+        popmenu_leave_bottom_ani="false"
+        workspace_edit_mode_shake="false"
+        freeweather_weatherType="0"
+        page_indicator_creep_style="false"
+		screen_editor_division_line_enable="true"
+        status_bar_transport="true"
+        v5_folder_eidt_mode="false"
+        single_handler_start_self="true"
+        profile_ui_style="false"
+        aloneSceneapk="false"
+        enable_opt_touch="false"
+        release_widget="false"
+        capture_when_scroll_page="false"
+        enable_camera_share_button="false"
+        camera_list_show_text="false"
+		icon_title_width="0.70"
+		show_flow_news_page="true"
+		show_flow_news_Rspone_Area="8"
+        config_move_page_speed="1.0"
+        enable_battery_reduce="false"
+        render_sleep_time="5"
+        show_theme_loading_animation="false"
+        theme_loading_tween_anim_time="1000"
+        theme_loading_frame_anim_time="1000"
+        custom_default_wallpaper_name_in_defaulttheme="nothing"
+        dynamic_icon="false"
+        blurred_bg_offset="0"
+		enable_launcher_take_screen_shot="false"
+		enter_app_anim_type="0"
+		popmenu_bg_shadow_full_screen="true"
+		camera_preview_keep_light="false"
+		camera_use_system_path="false"
+		show_flow_news_for_dw="false"
+		hexing_scroll_page="false"
+		enable_deletefolder_when_drag="false"
+		dz_proximity_sensor_scroll="false"
+		widget_preview_show_indicator="false"
+		widget_preview_loop="true"
+		enable_back_camera_rotate="0"
+		enable_back_preview_camera_rotate="0"
+		enable_front_camera_rotate="0"
+		enable_preview_camera_rotate="0"
+		widget_preview_height="0"
+		freeweather_power_toast="false"
+		use_system_long_press_duration="false"
+		widget_preview_pop_signal_up="false"
+		enable_media_view_page_effect="false"
+		workspace_celllayout_edit_scale="0.85"
+		longclick_icon_to_uninstall="false"
+		show_dw_camera_ui="false"
+        news_package_name="com.inveno.newpiflow"
+		enable_IndicatorBg="false"
+		personcenter_changetheme_use_activity="false"
+		enable_set_wallpaperDim_before_set_wallpaper="false"
+		page_tween_type="0"
+		enable_pull_down_status_bar="true"
+                pull_down_status_bar_sensitive="500"
+		fz_pull_down_status_bar="false"
+		enable_new_particle="false"
+		particle_scroll_distance="150"
+		particle_default_value="0"
+		particle_max_num="20"
+		enable_scroll_smooth="false"
+		switch_page_time="700"
+		half_open_folder="false"
+		reflect_motion_sensor="false"
+		xunhu_sensor="false"
+		show_lyt_camera_kj="false"
+		freeweather_hide_lowpower="false"
+		freeweather_show_broadcast="false"
+		freeweather_samweatherclockPkg="com.cooee.widget.samweatherclock"
+		freeweather_samweatherclockCls="com.cooee.widget.samweatherclock.MainActivity"
+		freeweather_other_custom="false"
+		hideDuration="5"
+		xunhu_proximity_sensor_scroll="false"
+		konka_gesture_recognition="false"
+		chenxiang_proximity_sensor_scroll="false"
+		chenxiang_touchs_onoff="false"
+		media_view_black_bg="false"
+		page_effect_default_back="true"
+		fz_ui_style="true"
+		MTK_setWallpaperSize="true"
+        />
+
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~华丽的分割线~底边栏配置~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+    <!--
+    底边栏配置说明
+	底边栏目前支持四个，从左到右分别对应的id =0,1,2,3
+	hotseatIntent支持显示或者隐式两种配置方式。
+	对于支持包名和组件名的Intent必须是系统内置的APK,Intent的配置需要客户提供包名和主件名。
+	<hotseat id="3"  hotseatIntent="intent:#Intent;action=android.intent.action.MAIN;component=com.tencent.qqmusic/com.tencent.qqmusic.activity.AppStarterActivity;end" 
+	image 为对应的显示图标的名称，在theme/hotseatbar文件夹中
+	如果不配置，则用默认的拨号、电话本、信息和浏览器。如果客户需要修改第2个，则可以仅仅配置
+	hotseat id="2"的这一条
+		<hotseat id="2"  hotseatIntent="intent:#Intent;action=android.intent.action.MAIN;type=vnd.android-dir/mms-sms;end"  
+		image="messaging.png"/>			
+		<hotseat id="3"  hotseatIntent="intent:#Intent;action=android.intent.action.MAIN;component=com.android.browser/com.android.browser.BrowserActivity;end" 
+		image="browser.png"/>
+		<hotseat id="0"  hotseatIntent="intent:#Intent;B.konkacontacts=true;action=android.intent.action.MAIN;component=com.kkandroid.contacts/.activities.DialtactsActivity;end"
+		image="phone.png"/>	
+    -->
+
+    <hotseat_config>
+
+        <hotseat
+            id="0"
+            hotseatIntent="intent:#Intent;action=android.intent.action.DIAL;end"
+             image="phone.png"/>
+
+        <hotseat
+            id="1"
+            hotseatIntent="intent:content://com.android.contacts/contacts#Intent;action=android.intent.action.VIEW;end"
+             image="contacts.png"/>
+
+        <hotseat
+            id="2"
+            hotseatIntent="intent:#Intent;action=android.intent.action.MAIN;type=vnd.android-dir/mms-sms;end"
+             image="messaging.png"/>
+             
+        <hotseat
+            id="3"
+            hotseatIntent="intent:#Intent;action=android.intent.action.MAIN;component=com.android.browser/com.android.browser.BrowserActivity;end"
+            image="browser.png" />
+    </hotseat_config>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~华丽的分割线~主菜单配置~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+    <!-- 配置主菜单右上角点击的功能 ， 如果是默认则右上角显示的图标为小房子，并且点击功能为返回到桌面 -->
+    <!--
+         set mainmenu special icon function.
+		element sort:
+		1: <title> 2:<apk name> 3:<package name> 4:<custom ID> 5:<component name(for launch app)>
+    -->
+    <!-- e_0="酷易网游" e_1="Cooeemmo.apk" e_2="com.cooee.gameCenter" e_3="server" e_4="com.cooee.gameCenter.AssistActivity" -->
+    <!-- e_0="酷易市场" e_1="CooeeAppStore.apk" e_2="com.cooee.store" e_3="server" e_4="com.cooee.store.AppStoreActivity" -->
+    <!-- e_0="default" e_1="default" e_2="default" e_3="default" e_4="default" -->
+
+    <mm_settting
+        e_0="酷易市场"
+        e_1="CooeeAppStore.apk"
+        e_2="com.cooee.store"
+        e_3="server"
+        e_4="com.cooee.store.AppStoreActivity" />
+
+    <!-- 可添加至主菜单的应用，去掉则不显示 -->
+    <!-- com.iLoong.launcher.theme.ThemeManagerActivity：主题选择 -->
+    <!-- com.iLoong.launcher.theme.ThemeChangeActivity：一键换装 -->
+    <!-- show_app pkgname="com.iLoong.launcher.theme.FontActivity" 字体icon -->
+
+    <show_in_applist>
+		<!-- 美化中心 -->
+		<!--
+		<show_app pkgname="com.iLoong.base.themebox;com.coco.theme.themebox.MainActivity" />
+		-->		
+		<!-- 一键换装 -->
+		<!-- 
+		<show_app pkgname="com.iLoong.launcher.theme.ThemeChangeActivity" />
+		 -->
+    </show_in_applist>
+    <!-- 配置桌面切页特效以及主菜单切页特效:目前版本中请不要修改以下特效的排列顺序 -->
+ <!-- 配置桌面自由天气参数：目前版本请不要修改以下顺序 ,例如：若不想要关联天气："no_free_weather,fog,haze,sunday,cloudy,snow,rain,thunder,shade"-->
+
+    <freeweather_list weather_effect_list="no_free_weather,fog,haze,sunday,cloudy,snow,rain,thunder" >
+    </freeweather_list>
+    <desktop_effect_list effect_list="effect_standard,
+        effect_random,
+        effect_inbox,
+        effect_outbox,
+        effect_bigfan,
+        effect_fan,
+        effect_wave,
+        effect_default
+        " />
+    <!-- effect_crystal -->
+    <!-- 系统小组件预览图替换功能，对应图片默认放置在theme/widget_preview下 -->
+    <!--
+  <sys_widget_preview
+	compName="com.cooee.widget.samweatherclock/com.cooee.widget.samweatherclock.WeatherProvider"
+	imgName="samweatherclock.png"
+	/>
+    -->
+    <!-- 功能页 音乐=留声机页的底部4个图标 start -->
+
+    <musicSeatIcon
+        name="电话"
+        componentName="com.android.contacts.activities.DialtactsActivity"
+        image="phone.png"
+        pkgname="com.android.contacts" />
+
+    <musicSeatIcon
+        name="音乐"
+        componentName="com.android.music.MusicBrowserActivity"
+        image="music.png"
+        pkgname="com.android.music" />
+    
+    <musicSeatIcon
+        name="录音"
+        componentName="com.android.soundrecorder.SoundRecorder"
+        image="record.png"
+        pkgname="com.android.soundrecorder" />
+    
+    <musicSeatIcon
+        name="收音机"
+        componentName="com.mediatek.FMRadio.FMRadioActivity"
+        image="fm.png"
+        pkgname="com.mediatek.FMRadio" />
+
+    
+    <!-- 功能页 音乐=留声机页的底部4个图标 end -->
+    <!-- 功能页 相机的底部4个图标 start -->
+
+    <cameraSeatIcon
+        name="电话"
+        componentName="com.android.contacts.activities.DialtactsActivity"
+        image="phone.png"
+        pkgname="com.android.contacts" />
+
+    <cameraSeatIcon
+        name="相机"
+        componentName="com.android.camera.Camera"
+        image="camera.png"
+        pkgname="com.android.camera" />
+
+    <cameraSeatIcon
+        name="图库"
+        componentName="com.android.gallery3d.app.Gallery"
+        image="gallery.png"
+        pkgname="com.android.gallery3d" />
+
+    <cameraSeatIcon
+        name="视频"
+        componentName="com.mediatek.videoplayer.MovieListActivity"
+        image="video.png"
+        pkgname="com.mediatek.videoplayer" />
+    <!-- 功能页 相机的底部4个图标 end -->
+
+
+    <!-- 主菜单屏蔽的应用 -->
+    <!-- com.coco.lock2.lockbox/com.coco.lock2.lockbox.MainActivity -->
+
+    <hide_in_applist>
+
+        <hide_app compname="com.coco.lock2.lockbox/com.coco.lock2.lockbox.MainActivity" />
+
+<!--         <hide_app_incomplete package="com.android.email" /> -->
+    </hide_in_applist>
+
+    <visitor_mode_hide_applist>
+
+        <visitor_mode_hide_app
+            componentName="com.android.fingerprints.FingerPrintsMainActivity"
+            pkgName="com.android.fingerprints" />
+
+        <visitor_mode_hide_app
+            componentName="com.android.settings.Settings"
+            pkgName="com.android.settings" />
+
+        <visitor_mode_hide_app
+            componentName="com.android.settings.Settings$ManageApplicationsActivity"
+            pkgName="com.android.settings" />
+    </visitor_mode_hide_applist>
+    <!-- 限制widget拖到桌面上的个数，numbe<=0表示无限制，number>0表示出现的次数 -->
+    <!-- 表示每秒刷新一次的系统widget -->
+	<widget_refalsh_more>
+	    <widget_app pkgname=""
+	        clsname=""/>
+	 </widget_refalsh_more>
+    <system_widget_instance_number_namelist>
+
+        <system_widget_instance_number_name
+            className="com.konka.noteswidgetdraw.widget.NotesWidgetProvider"
+            number="1"
+            pkgName="com.konka.noteswidgetdraw" />
+
+        <system_widget_instance_number_name
+            className="com.konka.noteswidgettext.widget.NotesWidgetProvider"
+            number="1"
+            pkgName="com.konka.noteswidgettext" />
+    </system_widget_instance_number_namelist>
+
+    <!-- 底边栏屏蔽的系统小组件 -->
+    <!-- com.google.android.apps.maps/com.google.googlenav.appwidget.traffic.TrafficAppWidget:Traffic/路况 -->
+
+    <hide_in_widgetlist>
+
+        <hide_widget compname="com.cooee.uni.widget.weather/com.cooee.uni.widget.weather.UniWeather" />
+    </hide_in_widgetlist>
+    <!-- 主菜单的默认排序 show为true时作用 -->
+
+    <app_sort show="false" >
+
+        <app
+            id="0"
+            componentName="com.android.contacts.DialtactsActivity"
+            pkgname="com.android.contacts" />
+
+        <app
+            id="1"
+            componentName="com.android.mms.ui.ConversationList"
+            pkgname="com.android.mms" />
+    </app_sort>
+
+        <!-- 修改包名/类名的应用的应用名称  -->
+
+    <app_name_config>
+		<!--
+        <app_name
+            name="浏览器;瀏覽器;Browser"
+            componentName="com.tencent.mtt.SplashActivity"
+            dup="true"
+            pkgname="com.tencent.mtt" />
+		-->	
+    </app_name_config>
+
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~华丽的分割线~运营文件的配置~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    
+    
+    <!-- 运营文件默认显示时参考配置 -->
+    <!-- 20140224 请注意，本版本开始，配置的时候，如无特殊要求，请将resid默认设置为0 ,服务器会区分各个渠道的APK版本 -->
+    <!-- 如果不需要文件夹ICON，那么将icon 的值设置为空 -->
+      <!-- 
+		operateFolder_default_path:运营文件夹内置apk放置的路径.
+		operateFolder_left_rom_size:没有T卡时，运营文件夹的app下载后剩余的最小空间,默认100M.
+        enable_onekey_down_all:运营文件夹中未下载应用，支持一键选中批量下载，默认为不支持
+        onekey_down_button_show_time:一键下载按钮出来后，持续的时间，默认为2秒,取值范围为[1-6]
+        enable_operateFolder_editable: 运营文件夹是否可以拖动,0为不可以拖动，1为可以拖动。默认为不可以拖动
+        operateFolder_concurrent_download_max_num:运营文件应用程序同时可以下载的数量限制
+                          默认为2，取值范围为[1,4]
+        operateFolder_install_icon_pos:运营文件中应用程序安装后，图标显示的位置
+           0：文件夹和桌面都显示图标
+           1：文件夹里面有，桌面无
+           2：文件夹里面无，桌面有
+        showAppDownloadDialog 控制在下载应用程序中，在网络非WIFI情况下，是否先弹出提示对话框。
+        如果配置为True,弹出对话框，如果为false,不弹对话框，默认为不弹出对话框
+        expireDays:用户删除运营图标后 下次又更新出相同的应用程序包名，是否显示出来的周期控制
+                   0：卸载后下次更新立刻出来
+                   -1：卸载后更新出来后，永远不显示
+                   1-1000：卸载后多长天后再出来
+                   	默认为-1
+         enable_OperateFolder_default_show:默认配置的运营图标是否允许显示
+         enable_filled_empty_cell：文件夹中的运营图标安装后，如果
+         配置为文件夹里无外面有，是否允许将文件夹中的空位给填充。默认为允许填充。如后台
+         配置了20个图标，用户安装一个后，文件夹中多出一个空位，补一个没有显示出来的图标
+         show_icon_style: 显示风格。1：为原显示文格。2.为新显示风格 默认为2
+         Advanced_Settings:桌面设置里面的高级设置是否显示,默认是false
+         icon_more_entry:分类文件夹中是否显示更多应用（默认显示）
+		 enable_icon_category:图标智能分类
+		     1:显示分类
+		     2:关闭
+		 icon_category_screen:分类后，从第几屏开始显示分类文件夹（从1开始数，默认2）
+		 enable_category_systemapp_new_screen:分类后，除分类文件夹外，是否另起一页(默认false)
+    -->
+
+    <DynamicEntry_config
+         operateFolder_default_path="/system/operate_folder/apk"
+         operateFolder_left_rom_size="100"
+         enable_operateFolder_editable="0"
+         enable_onekey_down_all="false"
+         operateFolder_concurrent_download_max_num="2"
+         operateFolder_install_icon_pos="2"
+         onekey_down_button_show_time = "2"
+         enable_filled_empty_cell = "true"
+         showAppDownloadDialog="true"
+         show_icon_style = "2"
+         icon_more_entry="1"
+         enable_icon_category="2"
+         icon_category_screen="2"
+         enable_category_systemapp_new_screen="false"
+         Advanced_Settings = "false"
+         />
+    <!--智能分类白名单-->
+    <category_white type="0" pkgName="com.android.camera;com.sec.android.app.camera" clsName="com.android.camera.Camera" folderid="" screen="0" cellX="0" cellY="0"/>
+    <category_white type="1" pkgName="美化中心" folderid="54" screen="0" cellX="1" cellY="0"/>
+    <category_white type="0" pkgName="com.android.music;com.sec.android.app.music" clsName="com.android.music.MusicBrowserActivity" folderid="" screen="0" cellX="2" cellY="0"/>
+    <category_white type="0" pkgName="com.android.settings" clsName="com.android.settings.Settings" folderid="" screen="0" cellX="3" cellY="0"/>
+    <!--智能分类icon  -->
+    <category_entry show="true" id="0" name="category_entry" screen="1" cellX="1" cellY="1" icon="vCategory.png" canDelete="false"/>
+<!--  -->
+<!--         <folderitem -->
+<!--             appbigname="360彩票" -->
+<!--             appchname="360彩票" -->
+<!--             appname="360" -->
+<!--             respackname="com.qihoo.lottery" /> -->
+<!--  --> 
+<!--         <folderitem -->
+<!--             appbigname="UC浏览器" -->
+<!--             appchname="UC浏览器" -->
+<!--             appname="UCBrowser" -->
+<!--             respackname="com.UCMobile" /> -->
+        
+<!--     </showfolder> -->
+
+
+    
+<!--     <showfolder  
+         screen="1"  
+         cellX="2"  
+         cellY="2"  
+         folderename="sina"  
+         foldercname="新浪"  
+         folderbname="新浪"  
+         folderid="10000"
+         canDelete="false"  
+         icon="since.png"  
+         respackname="http://www.sina.com"  
+         type="3"/>-->
+    
+    
+
+    
+    <!-- 简易桌面默认配置项 -->
+    <!-- 注意： -->
+    <!--
+	<SimpleLauncherItem
+        name="widget天气" 【名字：和上面icon的name一致（目前仅有“widget天气”是特殊的）】.
+        packageName="com.cooee.widget.samweatherclock" 【包名】.
+        className="com.cooee.widget.samweatherclock.MainActivity" 【类名】.
+        type="3" 【类型：一般应用为“1”；widget天气为“3”（目前仅有“widget天气”是特殊的）】.
+        screen="0" 【所处于的屏幕：从0开始，小于上面的配置项“enable_Simpale_Launcher_Support_Cell_Num”】.
+        cellX="0" 【所处于当前屏幕的横向位置：从0开始，小于2（目前仅支持横向放两个item）。0表示从左往右数第一个；1表示从左往右数第二个】.
+        cellY="3" 【所处于当前屏幕的竖向位置：从0开始，小于4（目前仅支持竖向放四个item）。3表示从上往下数第一个；2表示从上往下数第二个，1表示从上往下数第三个；0表示从上往下数第四个】.
+        bgImageName="1" 【item背景图的名字：如“contacts”（需在以下地址“assets\theme\SimpleLauncher\item\apps”中放两张图片“contacts_bg_normal.png”和“contacts_bg_focus.png”）。“widget天气”为“1”，不需要放图片（目前仅有“widget天气”是特殊的）】.
+        iconImageName="1" 【item图标的名字：如“contacts”（需在以下地址“assets\theme\SimpleLauncher\item\apps”中放一张图片“contacts_icon.png”）。“widget天气”为“1”，不需要放图片（目前仅有“widget天气”是特殊的）】.
+        />
+
+	备注:
+		(1).横向所占的格子数：从0开始，小于2（目前仅支持横向放两个item）。一般应用为“1”；“widget天气”为“2”（目前仅有“widget天气”是特殊的）.
+		(2).竖向所占的格子数：从0开始，小于4（目前仅支持横向放四个item）。一般应用为“1”；“widget天气”为“1”（目前仅有“widget天气”是特殊的）.
+    -->
+    <SimpleLauncherItem
+        name="widget天气"
+        bgImageName="1"
+        cellX="0"
+        cellY="3"
+        className="com.cooee.widget.samweatherclock.MainActivity"
+        iconImageName="1"
+        packageName="com.cooee.widget.samweatherclock"
+        screen="0"
+        type="3" />
+
+    <SimpleLauncherItem
+        name="联系人"
+        bgImageName="contacts"
+        cellX="0"
+        cellY="2"
+        className=" "
+        iconImageName="contacts"
+        packageName=" "
+        screen="0"
+        type="0" />
+
+    <SimpleLauncherItem
+        name="电话"
+        bgImageName="dialer"
+        cellX="1"
+        cellY="2"
+        className=" "
+        iconImageName="dialer"
+        packageName=" "
+        screen="0"
+        type="0" />
+
+    <SimpleLauncherItem
+        name="通话记录"
+        bgImageName="CallHistory"
+        cellX="0"
+        cellY="1"
+        className=" "
+        iconImageName="CallHistory"
+        packageName=" "
+        screen="0"
+        type="0" />
+
+    <SimpleLauncherItem
+        name="文件管理"
+        bgImageName="filemanager"
+        cellX="1"
+        cellY="1"
+        className=" "
+        iconImageName="filemanager"
+        packageName=" "
+        screen="0"
+        type="0" />
+
+    <SimpleLauncherItem
+        name="浏览器"
+        bgImageName="browser"
+        cellX="0"
+        cellY="0"
+        className=" "
+        iconImageName="browser"
+        packageName=" "
+        screen="0"
+        type="0" />
+
+    <SimpleLauncherItem
+        name="短信"
+        bgImageName="mms"
+        cellX="1"
+        cellY="0"
+        className=" "
+        iconImageName="mms"
+        packageName=" "
+        screen="0"
+        type="0" />
+
+    <SimpleLauncherItem
+        name="音乐"
+        bgImageName="music"
+        cellX="0"
+        cellY="3"
+        className=" "
+        iconImageName="music"
+        packageName=" "
+        screen="1"
+        type="0" />
+
+    <SimpleLauncherItem
+        name="相机"
+        bgImageName="camera"
+        cellX="1"
+        cellY="3"
+        className=" "
+        iconImageName="camera"
+        packageName=" "
+        screen="1"
+        type="0" />
+
+    <SimpleLauncherItem
+        name="图库"
+        bgImageName="gallery"
+        cellX="0"
+        cellY="2"
+        className=" "
+        iconImageName="gallery"
+        packageName=" "
+        screen="1"
+        type="0" />
+
+    <SimpleLauncherItem
+        name="设置"
+        bgImageName="settings"
+        cellX="1"
+        cellY="2"
+        className=" "
+        iconImageName="settings"
+        packageName=" "
+        screen="1"
+        type="0" />
+
+    <SimpleLauncherItem
+        name="计算器"
+        bgImageName="calculator"
+        cellX="0"
+        cellY="1"
+        className=" "
+        iconImageName="calculator"
+        packageName=" "
+        screen="1"
+        type="0" />
+
+    <SimpleLauncherItem
+        name="时钟"
+        bgImageName="clock"
+        cellX="1"
+        cellY="1"
+        className=" "
+        iconImageName="clock"
+        packageName=" "
+        screen="1"
+        type="0" />
+
+    <SimpleLauncherItem
+        name="日历"
+        bgImageName="calendar"
+        cellX="0"
+        cellY="0"
+        className=" "
+        iconImageName="calendar"
+        packageName=" "
+        screen="1"
+        type="0" />
+
+    <SimpleLauncherItem
+        name="下载"
+        bgImageName="downloads"
+        cellX="1"
+        cellY="0"
+        className=" "
+        iconImageName="downloads"
+        packageName=" "
+        screen="1"
+        type="0" />
+
+    <SimpleLauncherItem
+        name="广播"
+        bgImageName="FMRadio"
+        cellX="0"
+        cellY="3"
+        className=" "
+        iconImageName="FMRadio"
+        packageName=" "
+        screen="2"
+        type="0" />
+
+    <SimpleLauncherItem
+        name="搜索"
+        bgImageName="searchbox"
+        cellX="1"
+        cellY="3"
+        className=" "
+        iconImageName="searchbox"
+        packageName=" "
+        screen="2"
+        type="0" />
+
+    <SimpleLauncherItem
+        name="电子邮件"
+        bgImageName="email"
+        cellX="0"
+        cellY="2"
+        className=" "
+        iconImageName="email"
+        packageName=" "
+        screen="2"
+        type="0" />
+
+    <SimpleLauncherItem
+        name="录音"
+        bgImageName="soundrecorder"
+        cellX="1"
+        cellY="2"
+        className=" "
+        iconImageName="soundrecorder"
+        packageName=" "
+        screen="2"
+        type="0" />
+
+    <SimpleLauncherItem
+        name="视频"
+        bgImageName="videoplayer"
+        cellX="0"
+        cellY="1"
+        className=" "
+        iconImageName="videoplayer"
+        packageName=" "
+        screen="2"
+        type="0" />
+        
+    <SimpleLauncherItem
+        name="标准桌面"
+        bgImageName="launcher"
+        cellX="1"
+        cellY="1"
+        className=" "
+        iconImageName="launcher"
+        packageName=" "
+        screen="2"
+        type="0" />
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~华丽的分割线~选项菜单配置~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!--	选项菜单默认配置项	-->
+	<!-- 
+		SetupMenuItem:
+		id:当packageName和className都无的时候，我们会根据ID去运行不同的功能。
+		name:该菜单的字符串名称，和原来的一样，为英文。
+		title：当name无效，直接显示菜单项的名称为title。
+		page：与SetupMenuTab中ID相同。(暂时无效)
+		index：菜单从上到下，第几个位置显示。(暂时无效)
+		icon：默认图片的文件名。
+		icon2:可能需要的图片的文件名。
+	
+		<item>"0,mostly_used"</item>
+        <item>"1018,clear_data,m8"</item>
+        <item>"1117,screen_editmode,m7"</item>
+        <item>"1002,"screen_wallpaper,m2"</item>
+        <item>"1118,screen_search,m7"</item>
+        <item>"1005,screen_editor,m5"</item>
+        <item>"1003,theme,m3"</item>
+        <item>"1006,desktop_setting,m6"</item>
+        <item>"1020,changjing_scene,m13"</item>
+        <item>"1007,system_setting,m7"</item>
+	 -->
+
+
+	<!-- menu_itemMarginTop:图片顶部透明区域高度 ，menu_leftPadding>0时有效
+		menu_iconSizeRelativeToItem:小图标相对于item高度的大小（1到10之间item高度相对比为10,对于列表菜单有效）
+		gridmenu_marginIconText：图标与title之间的间隙， 仅对于宫格菜单
+	    gridmenu_marginItemTop ：图标与上边框间隙，仅对于宫格菜单
+	    gridmenu_marginItembuttom：title与下边框间隙，仅对于宫格菜单
+	    gridmenu_bg_top_no_margin:分割线竖线到顶，顶部不留空隙，仅对于宫格菜单-->
+	<SetupMenu
+	    menu_itemHeight="44"
+	    menu_itemMarginTop = "10"
+	    menu_itemMarginLeft = "20"
+	    menu_marginIconText = "8"
+	    menu_leftPadding="0"
+	    menu_rightPadding="0"
+	    menu_title_size="14"
+	    menu_title_style_bold="false" 
+	    menu_iconSizeRelativeToItem = "5"
+	    
+	    gridmenu_marginIconText = "-1"
+	    gridmenu_marginTop = "-1"
+	    gridmenu_marginbuttom = "-1"
+	    gridmenu_bg_is_big = "false"
+	    gridmenu_bg_top_no_margin = "false">
+
+	    <SetupMenuTab
+	        id=""
+	        name="">
+           <!--
+	        <SetupMenuItem
+	            id="1001"
+	            name="system_widget"
+	            className=""
+	            icon="m1"
+	            icon2=""
+	            index="1"
+	            packageName=""
+	            page="0"
+	            title="小组件" />
+	         <SetupMenuItem
+	            id="1018"
+	            name="clear_data"
+	            className=""
+	            icon="m8"
+	            icon2=""
+	            index="1"
+	            packageName=""
+	            page="0"
+	            title="清除数据" />
+            -->
+            
+			<!--领阳定制
+	        <SetupMenuItem
+	            id="0000"
+	            name="theme_home"
+	            className="com.shly.xuan.ZkXuanSettings"
+	            icon="m8"
+	            icon2=""
+	            index="1"
+	            packageName="com.shly.xuan"
+	            page="0"
+	            title="主题汇" />
+            -->
+            <!--
+	        <SetupMenuItem
+	            id="1117"
+	            name="screen_editmode"
+	            className=""
+	            icon="m1"
+	            icon2=""
+	            index="1"
+	            packageName=""
+	            page="0"
+	            title="屏幕编辑" />
+	        
+	        <SetupMenuItem
+	            id="1002"
+	            name="screen_wallpaper"
+	            className=""
+	            icon="m2"
+	            icon2=""
+	            index="1"
+	            packageName=""
+	            page="0"
+	            title="修改壁纸" />
+			 
+	        <SetupMenuItem
+	            id="1118"
+	            name="screen_search"
+	            className=""
+	            icon="m4"
+	            icon2=""
+	            index="1"
+	            packageName=""
+	            page="0"
+	            title="全局搜索" />
+			 
+	        <SetupMenuItem
+	            id="1005"
+	            name="screen_editor"
+	            className=""
+	            icon="m5"
+	            icon2=""
+	            index="1"
+	            packageName=""
+	            page="0"
+	            title="桌面缩略图" />
+	       
+	        <SetupMenuItem
+	            id="1011"
+	            name="menu_love_setting"
+	            className=""
+	            icon="m5"
+	            icon2=""
+	            index="1"
+	            packageName=""
+	            page="0"
+	            title="一键钟情" />
+	        -->     
+			
+	        <!--领阳将name值修改为 personal_home_screen-->
+	        <SetupMenuItem
+	            id="1005"
+	            name="screen_editor"
+	            className=""
+	            icon="m5"
+	            icon2=""
+	            index="1"
+	            packageName=""
+	            page="0"
+	            title="桌面缩略图" />
+
+	        <SetupMenuItem
+	            id="1006"
+	            name="desktop_setting"
+	            className=""
+	            icon="m6"
+	            icon2=""
+	            index="1"
+	            packageName=""
+	            page="0"
+	            title="桌面设置" />
+	        
+	        
+	        <SetupMenuItem
+	            id="1007"
+	            name="system_setting"
+	            className=""
+	            icon="m7"
+	            icon2=""
+	            index="1"
+	            packageName=""
+	            page="0"
+	            title="系统设置" />
+	        <!-- <SetupMenuItem
+	            id="1020"
+	            name="vivid_scene"
+	            className=""
+	            icon="m13"
+	            icon2=""
+	            index="1"
+	            packageName=""
+	            page="0"
+	            title="灵动桌面" /> -->
+	    </SetupMenuTab>
+
+	</SetupMenu>
+	
+	<!-- 动态图标包名类名配置 -->
+    <!-- <dynamicicon -->
+    <!-- name="时钟" -->
+    <!-- pkgname="AAA.AAA.AAA;BBB.BBB.BBB" -->
+    <!-- componentName="CCC.CCC.CCC;DDD.DDD.DDD" -->
+    <!-- /> -->
+
+    <!-- 时钟 -->
+    <dynamicicon
+        name="时钟"
+        componentName="com.android.deskclock.ClockActivity;com.android.deskclock.DeskClock"
+        pkgname="com.google.android.deskclock;com.android.BBKClock;com.android.alarmclock;com.android.deskclock;com.android.alarmclock.AlarmClock;com.htc.android.worldclock;com.htc.android.worldclock.WorldClockTabControl;com.sec.android.app.clockpackage;com.sec.android.app.clockpackage.ClockPackage;com.android.deskclock.DeskClock;com.sonyericsson.organizer" />
+
+    <!-- 日历 -->
+
+    <dynamicicon
+        name="日历"
+        componentName="com.android.calendar.JumpActivity;com.android.calendar.AllInOneActivity"
+        pkgname="com.google.android.calendar;com.bbk.calendar;com.android.calendar;com.android.calendar.LaunchActivity;com.htc.calendar;com.htc.calendar.LaunchActivity;com.android.calendar.LaunchActivity" />
+
+    <!-- 天气 -->
+
+    <dynamicicon
+        name="天气"
+        componentName="com.cooee.widget.samweatherclock;com.cooee.widget.samweatherclock.MainActivity"
+        pkgname="com.cooee.widget.samweatherclock" />
+</default_layout>

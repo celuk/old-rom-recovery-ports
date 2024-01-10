@@ -1,0 +1,34 @@
+
+Most Epic ROM Ever
+==================
+
+##1.51
+*Playstore Fix
+*Twitter Fix
+*Root Access Fix(Superuser)
+
+##1.5
+*KitKat Based
+*Sound Settings
+*DSP Manager
+*Network Monitor
+*Listview Animation
+*Volume Rocker Wake switch
+*Shutdown Animation switch
+*Performance Control
+*Proximity Gestures
+*App Privacy
+*Advanced Reboot Menu
+*"SECRET SAUSAGE 1.5!"
+
+##1.2
+*JB4.2.2 Based
+*AOSP Look & Feel
+*Autostarts
+*Dolby Sounds Equalizer
+*AOKP Performance Control
+*Reboot to Recovery
+*MERE APP
+*"SECRET SAUSAGE 1.2!"
+
+

@@ -1,0 +1,3 @@
+post-build=Fly/cm_j608_fly/j608_fly:5.1.1/LMY48G/de64be231b:userdebug/test-keys
+post-timestamp=1441038646
+pre-device=j608_fly

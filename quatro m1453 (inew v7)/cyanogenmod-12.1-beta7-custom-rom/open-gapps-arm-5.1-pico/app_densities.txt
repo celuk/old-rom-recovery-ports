@@ -1,0 +1,15 @@
+Core/googlebackuptransport/nodpi/
+Core/googlecontactssync/nodpi/
+Core/googlefeedback/nodpi/
+Core/googleonetimeinitializer/nodpi/
+Core/googlepartnersetup/nodpi/
+Core/gmscore/480/
+Core/gmscore/320/
+Core/gmscore/240/
+Core/gmscore/nodpi/
+Core/gsfcore/nodpi/
+Core/gsflogin/nodpi/
+Core/setupwizard/nodpi/
+Core/vending/nodpi/
+Core/configupdater/nodpi/
+GApps/calsync/nodpi/

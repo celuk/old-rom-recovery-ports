@@ -1,0 +1,8 @@
+unmount("/system");
+
+show_progress(0.200000, 0);
+assert(package_extract_file("recovery.img", "/tmp/recovery.img"),
+       write_raw_image("/tmp/recovery.img", "recovery"),
+       delete("/tmp/recovery.img"));
+show_progress(0.100000, 0);
+unmount("/system");

@@ -1,0 +1,127 @@
+#!/system/bin/sh
+echo 2048,4096,14080,16640,19200,23040 > /sys/module/lowmemorykiller/parameters/minfree;
+
+# IO Tweaks
+n=1024
+m=256
+
+mmc=$(find /sys/block | grep mmc)
+dm=$(find /sys/block | grep dm)
+loop=$(find /sys/block | grep loop)
+
+for i in $dm $loop $mmc; do
+	echo "$m" > $i/queue/read_ahead_kb
+	echo "$n" > $i/queue/nr_requests
+done
+
+#READ AHEAD KB
+bdi=$(find /sys/devices/virtual/bdi | grep 179)
+
+for i in $bdi; do
+	echo "$(($n*3))" > $i/read_ahead_kb
+done
+echo "$(($n*3))" > /sys/devices/virtual/bdi/default/read_ahead_kb
+
+# Disable user statistics and data collection
+# Disable logcat
+rm -r /data/system/dropbox/*.txt
+rm -r /data/tombstones/*
+rm -r /data/local/*
+rm -r /data/anr/*.txt
+rm -r /sdcard/LOST.DIR/*
+
+#rm /dev/log/main
+
+busybox chmod 000 /data/system/dropbox/
+busybox chmod 000 /data/system/usagestats/
+busybox chmod 000 /data/anr/
+busybox chmod 000 /data/tombstones/
+
+#CPU/IO Permission
+chmod 777 /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+chmod 777 /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies
+chmod 777 /sys/block/mmcblk0/queue/scheduler
+
+#GPU
+cd /sys/module/mali/parameters/
+chmod 666 *
+echo 0 > mali_debug_level
+echo 4 > mali_max_pp_cores_group_1
+echo 28 > mali_l2_max_reads
+echo 5000 > mali_max_job_runtime
+chmod 644 *
+cd /
+
+LOG_FILE=/data/fstrim
+if [ -e $LOG_FILE ]; then
+    	rm $LOG_FILE;
+fi;
+	
+fstrim -v /cache | tee -a $LOG_FILE;
+fstrim -v /data | tee -a $LOG_FILE;
+fstrim -v /system | tee -a $LOG_FILE;
+
+# Extension
+if [ -e /data/bin/datafile  ]; then
+	mkswap /data/bin/datafile 
+	swapon /data/bin/datafile
+else
+	mkdir data/bin
+	sync; sync; sync;
+
+	dd if=/dev/zero of=/data/bin/datafile bs=1048576 count=128
+
+	mkswap /data/bin/datafile 
+	swapon /data/bin/datafile
+fi;
+
+sysctl -w vm.min_free_kbytes=4096;
+sysctl -w vm.vfs_cache_pressure=50;
+sysctl -w vm.dirty_background_ratio=5;
+sysctl -w vm.dirty_ratio=20;
+sysctl -w vm.swappiness=100;
+
+#Volume Fix
+cp /system/etc/Audio_ver1_Vol_custom /data/nvram/APCFG/APRDCL
+
+#Entropy
+RANDOMDEVICE=urandom
+if [ -c /dev/erandom ]; then 
+  if [ ! -f /dev/urandom.MOD ]; then 
+    touch /dev/urandom.MOD
+    mv /dev/urandom /dev/urandom.ORIG && ln /dev/erandom /dev/urandom
+    sleep 2
+  fi
+  if [ ! -c /dev/urandom.ORIG ]; then 
+    busybox mknod -m 666 /dev/urandom.ORIG c 1 9
+    sleep 2
+  fi
+  ( CB_RunHaveged /dev/urandom.ORIG 0<&- &>/dev/null 2>&1 ) &
+  RANDOMDEVICE=frandom
+else
+  if [ ! -c /dev/urandom ]; then
+    busybox mknod -m 666 /dev/urandom c 1 9
+    sleep 2
+  fi
+  ( CB_RunHaveged /dev/urandom 0<&- &>/dev/null 2>&1 ) &
+fi
+
+if [ ! -f /dev/random.MOD ]; then  
+  touch /dev/random.MOD
+  rm /dev/random && ln /dev/$RANDOMDEVICE /dev/random
+fi
+
+sys_pid=` busybox pgrep system_server 2>/dev/null`
+
+busybox renice -10 $sys_pid 2>/dev/null
+
+for i in $( busybox pgrep haveged 2>/dev/null); do 
+  busybox renice +20 $i 2>/dev/null
+done
+
+# LogFile
+if [ -e /data/Script ]; then
+	rm /data/Script;
+fi;
+
+echo -n "MERE 1.5: $( date +"%m-%d-%Y %H:%M:%S" )" > /data/Script

@@ -1,0 +1,20 @@
+# mount point	fstype		device			[device2]
+
+/boot		mtd		boot
+
+
+
+
+/cache		ext4		cache
+/data		ext4		userdata
+/misc		mtd		misc
+/recovery	mtd		recovery
+/sdcard		vfat		/dev/block/mmcblk0p1	/dev/block/mmcblk0
+/system		ext4		system
+/custpack       ext4            /dev/block/mmcblk0p3
+/mobile_info    ext4            /dev/block/mmcblk0p4
+##update by jianbo.deng for dist
+
+
+
+

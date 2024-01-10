@@ -1,0 +1,4 @@
+# [5.1.1][PORT] FLYMEOS ROM FOR QUATRO M1453 (iNew v7)
+
+CM12.1 based
+

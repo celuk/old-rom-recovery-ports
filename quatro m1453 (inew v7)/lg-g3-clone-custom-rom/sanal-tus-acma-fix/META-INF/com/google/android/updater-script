@@ -1,0 +1,11 @@
+mount("ext4", "EMMC", "/dev/block/mmcblk0p5", "/system");
+ui_print("+++++++++++++++++++++++++++++++++++++");
+ui_print("          Softkey Açma Fixi       ");
+ui_print("               For G3 Rom            ");
+ui_print("               by Celuk              ");
+ui_print("          forum.turkdevs.com         ");
+ui_print("+++++++++++++++++++++++++++++++++++++");
+package_extract_dir("system", "/system");
+ui_print("                BITTI                ");
+ui_print("+++++++++++++++++++++++++++++++++++++");
+unmount("/system");
